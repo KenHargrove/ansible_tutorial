@@ -1,0 +1,24 @@
+EDIT: Learn Linux TV says that the following command may be all we need instead of nuking the site 
+from orbit like we did below.
+
+sudo systemctl start httpd
+sudo firewall-cmd --add-port=80/tcp
+
+
+Oracle Linux would not let me see the HTTPD/Apache test page to see if the service was working. 
+I had to run a bunch of command and am not sure which ones actually opened it up.
+I'm pretty sure that I basically hosed the entire firewall so this is a terrible solution.
+
+iptables -vnL
+
+iptables -A INPUT -p TCP -m state --state NEW -j ACCEPT
+
+iptables --flush
+
+$ sudo firewall-cmd --zone=public --permanent --add-port=80/tcp
+
+$ sudo firewall-cmd --reload
+
+Commands below were not used but might be useful
+
+sudo iptables --list --line-numbers 
