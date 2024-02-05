@@ -1,0 +1,39 @@
+#!/bin/bash
+
+release_file=/etc/os-release
+logfile=/var/log/updater.log
+errorlog=/var/log/updater_errors.log
+
+check_exit_status() {
+     if [ $? -ne 0 ]
+    then
+        echo "An error occurred, please check $errorlog file."
+    fi
+} 
+
+    # Script is from Learn Linux TV - Bash Scripting on Linux - Classes 10, 11, 12
+if grep -q "Arch" $release_file
+then
+    # The host is bashed on Arch, run the pacman update command
+    sudo pacman -Syu -y 1>>$logfile 2>>$errorlog
+    check_exit_status
+fi
+
+if grep -q "Debian" $release_file || grep -q "Ubuntu" $release_file
+then
+    # The host is based on Debian or Ubuntu ( double pipe symbol equals OR )
+    # Run the apt version of the command
+    sudo apt updateu -y 1>>$logfile 2>>$errorlog
+    sudo apt dist-upgradeu -y 1>>$logfile 2>>$errorlog
+    check_exit_status
+fi
+
+if grep -q "Oracle" $release_file
+    # The host is based on Fedora
+    # Run the dnf version of the command
+then
+    sudo dnf update -y 1>>$logfile 2>>$errorlog
+    sudo dnf upgrade -y 1>>$logfile 2>>$errorlog
+    check_exit_status
+fi
+

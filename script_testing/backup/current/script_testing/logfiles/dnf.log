@@ -1,0 +1,1209 @@
+2024-01-21T14:15:32-0500 INFO --- logging initialized ---
+2024-01-21T14:15:32-0500 DDEBUG timer: config: 135 ms
+2024-01-21T14:15:33-0500 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade, ulninfo
+2024-01-21T14:15:33-0500 DEBUG DNF version: 4.14.0
+2024-01-21T14:15:33-0500 DDEBUG Command: dnf makecache --timer 
+2024-01-21T14:15:33-0500 DDEBUG Installroot: /
+2024-01-21T14:15:33-0500 DDEBUG Releasever: 9
+2024-01-21T14:15:33-0500 DEBUG cachedir: /var/cache/dnf
+2024-01-21T14:15:33-0500 DDEBUG Base command: makecache
+2024-01-21T14:15:33-0500 DDEBUG Extra commands: ['makecache', '--timer']
+2024-01-21T14:15:33-0500 DEBUG Making cache files for all metadata files.
+2024-01-21T14:15:33-0500 WARNING Failed determining last makecache time.
+2024-01-21T14:15:33-0500 DEBUG ol9_baseos_latest: has expired and will be refreshed.
+2024-01-21T14:15:33-0500 DEBUG ol9_appstream: has expired and will be refreshed.
+2024-01-21T14:15:33-0500 DEBUG ol9_UEKR7: has expired and will be refreshed.
+2024-01-21T14:15:33-0500 DEBUG repo: downloading from remote: ol9_baseos_latest
+2024-01-21T14:15:38-0500 DEBUG ol9_baseos_latest: using metadata from Fri 19 Jan 2024 10:13:18 PM EST.
+2024-01-21T14:15:38-0500 DEBUG repo: downloading from remote: ol9_appstream
+2024-01-21T14:15:48-0500 DEBUG ol9_appstream: using metadata from Fri 19 Jan 2024 10:18:09 PM EST.
+2024-01-21T14:15:48-0500 DEBUG repo: downloading from remote: ol9_UEKR7
+2024-01-21T14:15:58-0500 DEBUG ol9_UEKR7: using metadata from Fri 12 Jan 2024 03:35:20 PM EST.
+2024-01-21T14:15:58-0500 INFO Last metadata expiration check: 0:00:04 ago on Sun 21 Jan 2024 02:15:49 PM EST.
+2024-01-21T14:15:58-0500 DEBUG User-Agent: constructed: 'libdnf (Oracle Linux Server 9.3; server; Linux.x86_64)'
+2024-01-21T14:16:02-0500 DDEBUG timer: sack setup: 29641 ms
+2024-01-21T14:16:02-0500 DEBUG Completion plugin: Generating completion cache...
+2024-01-21T14:16:03-0500 INFO Metadata cache created.
+2024-01-21T14:16:03-0500 DDEBUG Cleaning up.
+2024-01-21T14:16:03-0500 DDEBUG Plugins were unloaded.
+2024-01-21T16:10:04-0500 INFO --- logging initialized ---
+2024-01-21T16:10:04-0500 DDEBUG timer: config: 12 ms
+2024-01-21T16:10:04-0500 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade, ulninfo
+2024-01-21T16:10:04-0500 DEBUG DNF version: 4.14.0
+2024-01-21T16:10:04-0500 DDEBUG Command: dnf makecache --timer 
+2024-01-21T16:10:04-0500 DDEBUG Installroot: /
+2024-01-21T16:10:04-0500 DDEBUG Releasever: 9
+2024-01-21T16:10:04-0500 DEBUG cachedir: /var/cache/dnf
+2024-01-21T16:10:04-0500 DDEBUG Base command: makecache
+2024-01-21T16:10:04-0500 DDEBUG Extra commands: ['makecache', '--timer']
+2024-01-21T16:10:04-0500 DEBUG Making cache files for all metadata files.
+2024-01-21T16:10:04-0500 INFO Metadata cache refreshed recently.
+2024-01-21T16:10:04-0500 DDEBUG Cleaning up.
+2024-01-21T16:10:04-0500 DDEBUG Plugins were unloaded.
+2024-01-28T01:26:35-0500 INFO --- logging initialized ---
+2024-01-28T01:26:35-0500 DDEBUG timer: config: 11 ms
+2024-01-28T01:26:36-0500 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade, ulninfo
+2024-01-28T01:26:36-0500 DEBUG DNF version: 4.14.0
+2024-01-28T01:26:36-0500 DDEBUG Command: dnf makecache --timer 
+2024-01-28T01:26:36-0500 DDEBUG Installroot: /
+2024-01-28T01:26:36-0500 DDEBUG Releasever: 9
+2024-01-28T01:26:36-0500 DEBUG cachedir: /var/cache/dnf
+2024-01-28T01:26:36-0500 DDEBUG Base command: makecache
+2024-01-28T01:26:36-0500 DDEBUG Extra commands: ['makecache', '--timer']
+2024-01-28T01:26:36-0500 DEBUG Making cache files for all metadata files.
+2024-01-28T01:26:36-0500 DEBUG ol9_baseos_latest: has expired and will be refreshed.
+2024-01-28T01:26:36-0500 DEBUG ol9_appstream: has expired and will be refreshed.
+2024-01-28T01:26:36-0500 DEBUG ol9_UEKR7: has expired and will be refreshed.
+2024-01-28T01:26:36-0500 DEBUG reviving: failed for 'ol9_baseos_latest', mismatched repomd.
+2024-01-28T01:26:36-0500 DEBUG repo: downloading from remote: ol9_baseos_latest
+2024-01-28T01:26:40-0500 DEBUG ol9_baseos_latest: using metadata from Fri 26 Jan 2024 01:03:59 PM EST.
+2024-01-28T01:26:40-0500 DEBUG reviving: failed for 'ol9_appstream', mismatched repomd.
+2024-01-28T01:26:40-0500 DEBUG repo: downloading from remote: ol9_appstream
+2024-01-28T01:27:08-0500 DEBUG ol9_appstream: using metadata from Fri 26 Jan 2024 01:09:25 PM EST.
+2024-01-28T01:27:08-0500 DEBUG reviving: 'ol9_UEKR7' can be revived - repomd matches.
+2024-01-28T01:27:08-0500 DEBUG ol9_UEKR7: using metadata from Fri 12 Jan 2024 03:35:20 PM EST.
+2024-01-28T01:27:08-0500 DEBUG User-Agent: constructed: 'libdnf (Oracle Linux Server 9.3; server; Linux.x86_64)'
+2024-01-28T01:27:12-0500 DDEBUG timer: sack setup: 36228 ms
+2024-01-28T01:27:12-0500 DEBUG Completion plugin: Generating completion cache...
+2024-01-28T01:27:12-0500 INFO Metadata cache created.
+2024-01-28T01:27:12-0500 DDEBUG Cleaning up.
+2024-01-28T01:27:12-0500 DDEBUG Plugins were unloaded.
+2024-01-28T01:31:13-0500 INFO --- logging initialized ---
+2024-01-28T01:31:13-0500 DDEBUG timer: config: 24 ms
+2024-01-28T01:31:13-0500 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade, ulninfo
+2024-01-28T01:31:13-0500 DEBUG DNF version: 4.14.0
+2024-01-28T01:31:13-0500 DDEBUG Command: dnf update 
+2024-01-28T01:31:13-0500 DDEBUG Installroot: /
+2024-01-28T01:31:13-0500 DDEBUG Releasever: 9
+2024-01-28T01:31:13-0500 DEBUG cachedir: /var/cache/dnf
+2024-01-28T01:31:13-0500 DDEBUG Base command: update
+2024-01-28T01:31:13-0500 DDEBUG Extra commands: ['update']
+2024-01-28T01:31:13-0500 DEBUG User-Agent: constructed: 'libdnf (Oracle Linux Server 9.3; server; Linux.x86_64)'
+2024-01-28T01:31:13-0500 DEBUG repo: using cache for: ol9_baseos_latest
+2024-01-28T01:31:13-0500 DEBUG ol9_baseos_latest: using metadata from Fri 26 Jan 2024 01:03:59 PM EST.
+2024-01-28T01:31:13-0500 DEBUG repo: using cache for: ol9_appstream
+2024-01-28T01:31:14-0500 DEBUG ol9_appstream: using metadata from Fri 26 Jan 2024 01:09:25 PM EST.
+2024-01-28T01:31:14-0500 DEBUG repo: using cache for: ol9_UEKR7
+2024-01-28T01:31:14-0500 DEBUG ol9_UEKR7: using metadata from Fri 12 Jan 2024 03:35:20 PM EST.
+2024-01-28T01:31:14-0500 INFO Last metadata expiration check: 0:04:06 ago on Sun 28 Jan 2024 01:27:08 AM EST.
+2024-01-28T01:31:14-0500 DDEBUG timer: sack setup: 1269 ms
+2024-01-28T01:31:14-0500 DEBUG --> Starting dependency resolution
+2024-01-28T01:31:14-0500 DEBUG ---> Package kernel.x86_64 5.14.0-362.18.0.1.el9_3 will be installed
+2024-01-28T01:31:14-0500 DEBUG ---> Package kernel-core.x86_64 5.14.0-362.18.0.1.el9_3 will be installed
+2024-01-28T01:31:14-0500 DEBUG ---> Package kernel-modules.x86_64 5.14.0-362.18.0.1.el9_3 will be installed
+2024-01-28T01:31:14-0500 DEBUG ---> Package kernel-modules-core.x86_64 5.14.0-362.18.0.1.el9_3 will be installed
+2024-01-28T01:31:14-0500 DEBUG ---> Package NetworkManager.x86_64 1:1.44.0-3.0.1.el9 will be upgraded
+2024-01-28T01:31:14-0500 DEBUG ---> Package NetworkManager.x86_64 1:1.44.0-4.0.1.el9_3 will be an upgrade
+2024-01-28T01:31:14-0500 DEBUG ---> Package NetworkManager-adsl.x86_64 1:1.44.0-3.0.1.el9 will be upgraded
+2024-01-28T01:31:14-0500 DEBUG ---> Package NetworkManager-adsl.x86_64 1:1.44.0-4.0.1.el9_3 will be an upgrade
+2024-01-28T01:31:14-0500 DEBUG ---> Package NetworkManager-bluetooth.x86_64 1:1.44.0-3.0.1.el9 will be upgraded
+2024-01-28T01:31:14-0500 DEBUG ---> Package NetworkManager-bluetooth.x86_64 1:1.44.0-4.0.1.el9_3 will be an upgrade
+2024-01-28T01:31:14-0500 DEBUG ---> Package NetworkManager-config-server.noarch 1:1.44.0-3.0.1.el9 will be upgraded
+2024-01-28T01:31:14-0500 DEBUG ---> Package NetworkManager-config-server.noarch 1:1.44.0-4.0.1.el9_3 will be an upgrade
+2024-01-28T01:31:14-0500 DEBUG ---> Package NetworkManager-libnm.x86_64 1:1.44.0-3.0.1.el9 will be upgraded
+2024-01-28T01:31:14-0500 DEBUG ---> Package NetworkManager-libnm.x86_64 1:1.44.0-4.0.1.el9_3 will be an upgrade
+2024-01-28T01:31:14-0500 DEBUG ---> Package NetworkManager-team.x86_64 1:1.44.0-3.0.1.el9 will be upgraded
+2024-01-28T01:31:14-0500 DEBUG ---> Package NetworkManager-team.x86_64 1:1.44.0-4.0.1.el9_3 will be an upgrade
+2024-01-28T01:31:14-0500 DEBUG ---> Package NetworkManager-tui.x86_64 1:1.44.0-3.0.1.el9 will be upgraded
+2024-01-28T01:31:14-0500 DEBUG ---> Package NetworkManager-tui.x86_64 1:1.44.0-4.0.1.el9_3 will be an upgrade
+2024-01-28T01:31:14-0500 DEBUG ---> Package NetworkManager-wifi.x86_64 1:1.44.0-3.0.1.el9 will be upgraded
+2024-01-28T01:31:14-0500 DEBUG ---> Package NetworkManager-wifi.x86_64 1:1.44.0-4.0.1.el9_3 will be an upgrade
+2024-01-28T01:31:14-0500 DEBUG ---> Package NetworkManager-wwan.x86_64 1:1.44.0-3.0.1.el9 will be upgraded
+2024-01-28T01:31:14-0500 DEBUG ---> Package NetworkManager-wwan.x86_64 1:1.44.0-4.0.1.el9_3 will be an upgrade
+2024-01-28T01:31:14-0500 DEBUG ---> Package bpftool.x86_64 7.2.0-362.13.1.el9_3 will be upgraded
+2024-01-28T01:31:14-0500 DEBUG ---> Package bpftool.x86_64 7.2.0-362.18.0.1.el9_3 will be an upgrade
+2024-01-28T01:31:14-0500 DEBUG ---> Package kernel-tools.x86_64 5.14.0-362.13.1.el9_3 will be upgraded
+2024-01-28T01:31:14-0500 DEBUG ---> Package kernel-tools.x86_64 5.14.0-362.18.0.1.el9_3 will be an upgrade
+2024-01-28T01:31:14-0500 DEBUG ---> Package kernel-tools-libs.x86_64 5.14.0-362.13.1.el9_3 will be upgraded
+2024-01-28T01:31:14-0500 DEBUG ---> Package kernel-tools-libs.x86_64 5.14.0-362.18.0.1.el9_3 will be an upgrade
+2024-01-28T01:31:14-0500 DEBUG ---> Package openssl.x86_64 1:3.0.7-24.0.1.el9 will be upgraded
+2024-01-28T01:31:14-0500 DEBUG ---> Package openssl.x86_64 1:3.0.7-25.0.1.el9_3 will be an upgrade
+2024-01-28T01:31:14-0500 DEBUG ---> Package openssl-libs.x86_64 1:3.0.7-24.0.1.el9 will be upgraded
+2024-01-28T01:31:14-0500 DEBUG ---> Package openssl-libs.x86_64 1:3.0.7-25.0.1.el9_3 will be an upgrade
+2024-01-28T01:31:14-0500 DEBUG ---> Package python3.x86_64 3.9.18-1.el9_3 will be upgraded
+2024-01-28T01:31:14-0500 DEBUG ---> Package python3.x86_64 3.9.18-1.el9_3.1 will be an upgrade
+2024-01-28T01:31:14-0500 DEBUG ---> Package python3-libs.x86_64 3.9.18-1.el9_3 will be upgraded
+2024-01-28T01:31:14-0500 DEBUG ---> Package python3-libs.x86_64 3.9.18-1.el9_3.1 will be an upgrade
+2024-01-28T01:31:14-0500 DEBUG ---> Package python3-perf.x86_64 5.14.0-362.13.1.el9_3 will be upgraded
+2024-01-28T01:31:14-0500 DEBUG ---> Package python3-perf.x86_64 5.14.0-362.18.0.1.el9_3 will be an upgrade
+2024-01-28T01:31:14-0500 DEBUG ---> Package python3-rpm.x86_64 4.16.1.3-25.el9 will be upgraded
+2024-01-28T01:31:14-0500 DEBUG ---> Package python3-rpm.x86_64 4.16.1.3-27.el9_3 will be an upgrade
+2024-01-28T01:31:14-0500 DEBUG ---> Package python3-urllib3.noarch 1.26.5-3.0.1.el9 will be upgraded
+2024-01-28T01:31:14-0500 DEBUG ---> Package python3-urllib3.noarch 1.26.5-3.0.1.el9_3.1 will be an upgrade
+2024-01-28T01:31:14-0500 DEBUG ---> Package rpm.x86_64 4.16.1.3-25.el9 will be upgraded
+2024-01-28T01:31:14-0500 DEBUG ---> Package rpm.x86_64 4.16.1.3-27.el9_3 will be an upgrade
+2024-01-28T01:31:14-0500 DEBUG ---> Package rpm-build-libs.x86_64 4.16.1.3-25.el9 will be upgraded
+2024-01-28T01:31:14-0500 DEBUG ---> Package rpm-build-libs.x86_64 4.16.1.3-27.el9_3 will be an upgrade
+2024-01-28T01:31:14-0500 DEBUG ---> Package rpm-libs.x86_64 4.16.1.3-25.el9 will be upgraded
+2024-01-28T01:31:14-0500 DEBUG ---> Package rpm-libs.x86_64 4.16.1.3-27.el9_3 will be an upgrade
+2024-01-28T01:31:14-0500 DEBUG ---> Package rpm-plugin-audit.x86_64 4.16.1.3-25.el9 will be upgraded
+2024-01-28T01:31:14-0500 DEBUG ---> Package rpm-plugin-audit.x86_64 4.16.1.3-27.el9_3 will be an upgrade
+2024-01-28T01:31:14-0500 DEBUG ---> Package rpm-plugin-selinux.x86_64 4.16.1.3-25.el9 will be upgraded
+2024-01-28T01:31:14-0500 DEBUG ---> Package rpm-plugin-selinux.x86_64 4.16.1.3-27.el9_3 will be an upgrade
+2024-01-28T01:31:14-0500 DEBUG ---> Package rpm-sign-libs.x86_64 4.16.1.3-25.el9 will be upgraded
+2024-01-28T01:31:14-0500 DEBUG ---> Package rpm-sign-libs.x86_64 4.16.1.3-27.el9_3 will be an upgrade
+2024-01-28T01:31:14-0500 DEBUG ---> Package sqlite-libs.x86_64 3.34.1-6.el9_1 will be upgraded
+2024-01-28T01:31:14-0500 DEBUG ---> Package sqlite-libs.x86_64 3.34.1-7.el9_3 will be an upgrade
+2024-01-28T01:31:14-0500 DEBUG ---> Package osinfo-db.noarch 20230518-1.0.2.el9 will be upgraded
+2024-01-28T01:31:14-0500 DEBUG ---> Package osinfo-db.noarch 20230518-1.0.3.el9 will be an upgrade
+2024-01-28T01:31:14-0500 DEBUG ---> Package python-unversioned-command.noarch 3.9.18-1.el9_3 will be upgraded
+2024-01-28T01:31:14-0500 DEBUG ---> Package python-unversioned-command.noarch 3.9.18-1.el9_3.1 will be an upgrade
+2024-01-28T01:31:14-0500 DEBUG ---> Package rpm-plugin-systemd-inhibit.x86_64 4.16.1.3-25.el9 will be upgraded
+2024-01-28T01:31:14-0500 DEBUG ---> Package rpm-plugin-systemd-inhibit.x86_64 4.16.1.3-27.el9_3 will be an upgrade
+2024-01-28T01:31:14-0500 DEBUG --> Finished dependency resolution
+2024-01-28T01:31:14-0500 DDEBUG timer: depsolve: 106 ms
+2024-01-28T01:31:14-0500 INFO Dependencies resolved.
+2024-01-28T01:31:14-0500 INFO ======================================================================================================================================================================
+ Package                                          Architecture               Version                                      Repository                             Size
+======================================================================================================================================================================
+Installing:
+ [1m[32mkernel                                          (B[m x86_64                     5.14.0-362.18.0.1.el9_3                      ol9_baseos_latest                     4.9 M
+Upgrading:
+ [1m[32mNetworkManager                                  (B[m x86_64                     1:1.44.0-4.0.1.el9_3                         ol9_baseos_latest                     2.3 M
+ [1m[32mNetworkManager-adsl                             (B[m x86_64                     1:1.44.0-4.0.1.el9_3                         ol9_baseos_latest                      35 k
+ [1m[32mNetworkManager-bluetooth                        (B[m x86_64                     1:1.44.0-4.0.1.el9_3                         ol9_baseos_latest                      61 k
+ [1m[32mNetworkManager-config-server                    (B[m noarch                     1:1.44.0-4.0.1.el9_3                         ol9_baseos_latest                      21 k
+ [1m[32mNetworkManager-libnm                            (B[m x86_64                     1:1.44.0-4.0.1.el9_3                         ol9_baseos_latest                     1.9 M
+ [1m[32mNetworkManager-team                             (B[m x86_64                     1:1.44.0-4.0.1.el9_3                         ol9_baseos_latest                      40 k
+ [1m[32mNetworkManager-tui                              (B[m x86_64                     1:1.44.0-4.0.1.el9_3                         ol9_baseos_latest                     250 k
+ [1m[32mNetworkManager-wifi                             (B[m x86_64                     1:1.44.0-4.0.1.el9_3                         ol9_baseos_latest                      83 k
+ [1m[32mNetworkManager-wwan                             (B[m x86_64                     1:1.44.0-4.0.1.el9_3                         ol9_baseos_latest                      68 k
+ [1m[32mbpftool                                         (B[m x86_64                     7.2.0-362.18.0.1.el9_3                       ol9_baseos_latest                     5.6 M
+ [1m[32mkernel-tools                                    (B[m x86_64                     5.14.0-362.18.0.1.el9_3                      ol9_baseos_latest                     5.1 M
+ [1m[32mkernel-tools-libs                               (B[m x86_64                     5.14.0-362.18.0.1.el9_3                      ol9_baseos_latest                     4.9 M
+ [1m[32mopenssl                                         (B[m x86_64                     1:3.0.7-25.0.1.el9_3                         ol9_baseos_latest                     1.3 M
+ [1m[32mopenssl-libs                                    (B[m x86_64                     1:3.0.7-25.0.1.el9_3                         ol9_baseos_latest                     2.2 M
+ [1m[32mosinfo-db                                       (B[m noarch                     20230518-1.0.3.el9                           ol9_appstream                         1.2 M
+ [1m[32mpython-unversioned-command                      (B[m noarch                     3.9.18-1.el9_3.1                             ol9_appstream                         8.5 k
+ [1m[32mpython3                                         (B[m x86_64                     3.9.18-1.el9_3.1                             ol9_baseos_latest                      30 k
+ [1m[32mpython3-libs                                    (B[m x86_64                     3.9.18-1.el9_3.1                             ol9_baseos_latest                     9.6 M
+ [1m[32mpython3-perf                                    (B[m x86_64                     5.14.0-362.18.0.1.el9_3                      ol9_baseos_latest                     5.0 M
+ [1m[32mpython3-rpm                                     (B[m x86_64                     4.16.1.3-27.el9_3                            ol9_baseos_latest                      73 k
+ [1m[32mpython3-urllib3                                 (B[m noarch                     1.26.5-3.0.1.el9_3.1                         ol9_baseos_latest                     310 k
+ [1m[32mrpm                                             (B[m x86_64                     4.16.1.3-27.el9_3                            ol9_baseos_latest                     645 k
+ [1m[32mrpm-build-libs                                  (B[m x86_64                     4.16.1.3-27.el9_3                            ol9_baseos_latest                      87 k
+ [1m[32mrpm-libs                                        (B[m x86_64                     4.16.1.3-27.el9_3                            ol9_baseos_latest                     306 k
+ [1m[32mrpm-plugin-audit                                (B[m x86_64                     4.16.1.3-27.el9_3                            ol9_baseos_latest                      14 k
+ [1m[32mrpm-plugin-selinux                              (B[m x86_64                     4.16.1.3-27.el9_3                            ol9_baseos_latest                      15 k
+ [1m[32mrpm-plugin-systemd-inhibit                      (B[m x86_64                     4.16.1.3-27.el9_3                            ol9_appstream                          15 k
+ [1m[32mrpm-sign-libs                                   (B[m x86_64                     4.16.1.3-27.el9_3                            ol9_baseos_latest                      19 k
+ [1m[32msqlite-libs                                     (B[m x86_64                     3.34.1-7.el9_3                               ol9_baseos_latest                     619 k
+Installing dependencies:
+ [1m[32mkernel-core                                     (B[m x86_64                     5.14.0-362.18.0.1.el9_3                      ol9_baseos_latest                      19 M
+ [1m[32mkernel-modules                                  (B[m x86_64                     5.14.0-362.18.0.1.el9_3                      ol9_baseos_latest                      38 M
+ [1m[32mkernel-modules-core                             (B[m x86_64                     5.14.0-362.18.0.1.el9_3                      ol9_baseos_latest                      33 M
+
+Transaction Summary
+======================================================================================================================================================================
+Install   4 Packages
+Upgrade  29 Packages
+
+2024-01-28T01:31:14-0500 INFO Total download size: 137 M
+2024-01-28T01:31:32-0500 INFO Downloading Packages:
+2024-01-28T01:31:35-0500 INFO ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2024-01-28T01:31:35-0500 INFO Total                                                                                                                                  46 MB/s | 137 MB     00:03     
+2024-01-28T01:31:35-0500 DEBUG Using rpmkeys executable at /bin/rpmkeys to verify signatures
+2024-01-28T01:31:36-0500 CRITICAL Importing GPG key 0x8D8B756F:
+ Userid     : "Oracle Linux (release key 1) <secalert_us@oracle.com>"
+ Fingerprint: 3E6D 826D 3FBA B389 C2F3 8E34 BC4D 06A0 8D8B 756F
+ From       : /etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+2024-01-28T01:31:57-0500 INFO Key imported successfully
+2024-01-28T01:31:57-0500 CRITICAL Importing GPG key 0x8B4EFBE6:
+ Userid     : "Oracle Linux (backup key 1) <secalert_us@oracle.com>"
+ Fingerprint: 9822 3175 9C74 6706 5D0C E9B2 A7DD 0708 8B4E FBE6
+ From       : /etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+2024-01-28T01:31:58-0500 INFO Key imported successfully
+2024-01-28T01:31:59-0500 INFO Running transaction check
+2024-01-28T01:32:00-0500 INFO Transaction check succeeded.
+2024-01-28T01:32:00-0500 INFO Running transaction test
+2024-01-28T01:32:04-0500 INFO Transaction test succeeded.
+2024-01-28T01:32:04-0500 DDEBUG timer: transaction test: 3969 ms
+2024-01-28T01:32:04-0500 INFO Running transaction
+2024-01-28T01:32:04-0500 DEBUG RPMDB altered outside of DNF.
+2024-01-28T01:32:04-0500 DDEBUG RPM transaction start.
+2024-01-28T01:33:23-0500 DDEBUG RPM transaction over.
+2024-01-28T01:33:23-0500 DDEBUG timer: verify transaction: 441 ms
+2024-01-28T01:33:23-0500 DDEBUG timer: transaction: 79338 ms
+2024-01-28T01:33:23-0500 DEBUG Completion plugin: Generating completion cache...
+2024-01-28T01:33:24-0500 DEBUG Upgraded: NetworkManager-1:1.44.0-4.0.1.el9_3.x86_64
+2024-01-28T01:33:24-0500 DEBUG Upgraded: NetworkManager-adsl-1:1.44.0-4.0.1.el9_3.x86_64
+2024-01-28T01:33:24-0500 DEBUG Upgraded: NetworkManager-bluetooth-1:1.44.0-4.0.1.el9_3.x86_64
+2024-01-28T01:33:24-0500 DEBUG Upgraded: NetworkManager-config-server-1:1.44.0-4.0.1.el9_3.noarch
+2024-01-28T01:33:24-0500 DEBUG Upgraded: NetworkManager-libnm-1:1.44.0-4.0.1.el9_3.x86_64
+2024-01-28T01:33:24-0500 DEBUG Upgraded: NetworkManager-team-1:1.44.0-4.0.1.el9_3.x86_64
+2024-01-28T01:33:24-0500 DEBUG Upgraded: NetworkManager-tui-1:1.44.0-4.0.1.el9_3.x86_64
+2024-01-28T01:33:24-0500 DEBUG Upgraded: NetworkManager-wifi-1:1.44.0-4.0.1.el9_3.x86_64
+2024-01-28T01:33:24-0500 DEBUG Upgraded: NetworkManager-wwan-1:1.44.0-4.0.1.el9_3.x86_64
+2024-01-28T01:33:24-0500 DEBUG Upgraded: bpftool-7.2.0-362.18.0.1.el9_3.x86_64
+2024-01-28T01:33:24-0500 DEBUG Upgraded: kernel-tools-5.14.0-362.18.0.1.el9_3.x86_64
+2024-01-28T01:33:24-0500 DEBUG Upgraded: kernel-tools-libs-5.14.0-362.18.0.1.el9_3.x86_64
+2024-01-28T01:33:24-0500 DEBUG Upgraded: openssl-1:3.0.7-25.0.1.el9_3.x86_64
+2024-01-28T01:33:24-0500 DEBUG Upgraded: openssl-libs-1:3.0.7-25.0.1.el9_3.x86_64
+2024-01-28T01:33:24-0500 DEBUG Upgraded: osinfo-db-20230518-1.0.3.el9.noarch
+2024-01-28T01:33:24-0500 DEBUG Upgraded: python-unversioned-command-3.9.18-1.el9_3.1.noarch
+2024-01-28T01:33:24-0500 DEBUG Upgraded: python3-3.9.18-1.el9_3.1.x86_64
+2024-01-28T01:33:24-0500 DEBUG Upgraded: python3-libs-3.9.18-1.el9_3.1.x86_64
+2024-01-28T01:33:24-0500 DEBUG Upgraded: python3-perf-5.14.0-362.18.0.1.el9_3.x86_64
+2024-01-28T01:33:24-0500 DEBUG Upgraded: python3-rpm-4.16.1.3-27.el9_3.x86_64
+2024-01-28T01:33:24-0500 DEBUG Upgraded: python3-urllib3-1.26.5-3.0.1.el9_3.1.noarch
+2024-01-28T01:33:24-0500 DEBUG Upgraded: rpm-4.16.1.3-27.el9_3.x86_64
+2024-01-28T01:33:24-0500 DEBUG Upgraded: rpm-build-libs-4.16.1.3-27.el9_3.x86_64
+2024-01-28T01:33:24-0500 DEBUG Upgraded: rpm-libs-4.16.1.3-27.el9_3.x86_64
+2024-01-28T01:33:24-0500 DEBUG Upgraded: rpm-plugin-audit-4.16.1.3-27.el9_3.x86_64
+2024-01-28T01:33:24-0500 DEBUG Upgraded: rpm-plugin-selinux-4.16.1.3-27.el9_3.x86_64
+2024-01-28T01:33:24-0500 DEBUG Upgraded: rpm-plugin-systemd-inhibit-4.16.1.3-27.el9_3.x86_64
+2024-01-28T01:33:24-0500 DEBUG Upgraded: rpm-sign-libs-4.16.1.3-27.el9_3.x86_64
+2024-01-28T01:33:24-0500 DEBUG Upgraded: sqlite-libs-3.34.1-7.el9_3.x86_64
+2024-01-28T01:33:24-0500 DEBUG Installed: kernel-5.14.0-362.18.0.1.el9_3.x86_64
+2024-01-28T01:33:24-0500 DEBUG Installed: kernel-core-5.14.0-362.18.0.1.el9_3.x86_64
+2024-01-28T01:33:24-0500 DEBUG Installed: kernel-modules-5.14.0-362.18.0.1.el9_3.x86_64
+2024-01-28T01:33:24-0500 DEBUG Installed: kernel-modules-core-5.14.0-362.18.0.1.el9_3.x86_64
+2024-01-28T01:33:24-0500 INFO Complete!
+2024-01-28T01:33:24-0500 DDEBUG Cleaning up.
+2024-01-28T01:33:24-0500 DDEBUG /var/cache/dnf/ol9_baseos_latest-b84601b3ea4c211b/packages/NetworkManager-1.44.0-4.0.1.el9_3.x86_64.rpm removed
+2024-01-28T01:33:24-0500 DDEBUG /var/cache/dnf/ol9_baseos_latest-b84601b3ea4c211b/packages/NetworkManager-wifi-1.44.0-4.0.1.el9_3.x86_64.rpm removed
+2024-01-28T01:33:24-0500 DDEBUG /var/cache/dnf/ol9_baseos_latest-b84601b3ea4c211b/packages/rpm-plugin-selinux-4.16.1.3-27.el9_3.x86_64.rpm removed
+2024-01-28T01:33:24-0500 DDEBUG /var/cache/dnf/ol9_baseos_latest-b84601b3ea4c211b/packages/rpm-build-libs-4.16.1.3-27.el9_3.x86_64.rpm removed
+2024-01-28T01:33:24-0500 DDEBUG /var/cache/dnf/ol9_baseos_latest-b84601b3ea4c211b/packages/NetworkManager-team-1.44.0-4.0.1.el9_3.x86_64.rpm removed
+2024-01-28T01:33:24-0500 DDEBUG /var/cache/dnf/ol9_baseos_latest-b84601b3ea4c211b/packages/rpm-4.16.1.3-27.el9_3.x86_64.rpm removed
+2024-01-28T01:33:24-0500 DDEBUG /var/cache/dnf/ol9_baseos_latest-b84601b3ea4c211b/packages/openssl-libs-3.0.7-25.0.1.el9_3.x86_64.rpm removed
+2024-01-28T01:33:24-0500 DDEBUG /var/cache/dnf/ol9_baseos_latest-b84601b3ea4c211b/packages/NetworkManager-bluetooth-1.44.0-4.0.1.el9_3.x86_64.rpm removed
+2024-01-28T01:33:24-0500 DDEBUG /var/cache/dnf/ol9_baseos_latest-b84601b3ea4c211b/packages/bpftool-7.2.0-362.18.0.1.el9_3.x86_64.rpm removed
+2024-01-28T01:33:24-0500 DDEBUG /var/cache/dnf/ol9_baseos_latest-b84601b3ea4c211b/packages/python3-urllib3-1.26.5-3.0.1.el9_3.1.noarch.rpm removed
+2024-01-28T01:33:24-0500 DDEBUG /var/cache/dnf/ol9_baseos_latest-b84601b3ea4c211b/packages/NetworkManager-wwan-1.44.0-4.0.1.el9_3.x86_64.rpm removed
+2024-01-28T01:33:24-0500 DDEBUG /var/cache/dnf/ol9_appstream-46874f0a9b913672/packages/rpm-plugin-systemd-inhibit-4.16.1.3-27.el9_3.x86_64.rpm removed
+2024-01-28T01:33:24-0500 DDEBUG /var/cache/dnf/ol9_baseos_latest-b84601b3ea4c211b/packages/rpm-plugin-audit-4.16.1.3-27.el9_3.x86_64.rpm removed
+2024-01-28T01:33:24-0500 DDEBUG /var/cache/dnf/ol9_baseos_latest-b84601b3ea4c211b/packages/python3-libs-3.9.18-1.el9_3.1.x86_64.rpm removed
+2024-01-28T01:33:24-0500 DDEBUG /var/cache/dnf/ol9_baseos_latest-b84601b3ea4c211b/packages/openssl-3.0.7-25.0.1.el9_3.x86_64.rpm removed
+2024-01-28T01:33:24-0500 DDEBUG /var/cache/dnf/ol9_baseos_latest-b84601b3ea4c211b/packages/python3-perf-5.14.0-362.18.0.1.el9_3.x86_64.rpm removed
+2024-01-28T01:33:24-0500 DDEBUG /var/cache/dnf/ol9_baseos_latest-b84601b3ea4c211b/packages/kernel-tools-5.14.0-362.18.0.1.el9_3.x86_64.rpm removed
+2024-01-28T01:33:24-0500 DDEBUG /var/cache/dnf/ol9_baseos_latest-b84601b3ea4c211b/packages/NetworkManager-adsl-1.44.0-4.0.1.el9_3.x86_64.rpm removed
+2024-01-28T01:33:24-0500 DDEBUG /var/cache/dnf/ol9_baseos_latest-b84601b3ea4c211b/packages/kernel-core-5.14.0-362.18.0.1.el9_3.x86_64.rpm removed
+2024-01-28T01:33:24-0500 DDEBUG /var/cache/dnf/ol9_baseos_latest-b84601b3ea4c211b/packages/kernel-modules-5.14.0-362.18.0.1.el9_3.x86_64.rpm removed
+2024-01-28T01:33:24-0500 DDEBUG /var/cache/dnf/ol9_appstream-46874f0a9b913672/packages/osinfo-db-20230518-1.0.3.el9.noarch.rpm removed
+2024-01-28T01:33:24-0500 DDEBUG /var/cache/dnf/ol9_baseos_latest-b84601b3ea4c211b/packages/NetworkManager-tui-1.44.0-4.0.1.el9_3.x86_64.rpm removed
+2024-01-28T01:33:24-0500 DDEBUG /var/cache/dnf/ol9_appstream-46874f0a9b913672/packages/python-unversioned-command-3.9.18-1.el9_3.1.noarch.rpm removed
+2024-01-28T01:33:24-0500 DDEBUG /var/cache/dnf/ol9_baseos_latest-b84601b3ea4c211b/packages/NetworkManager-config-server-1.44.0-4.0.1.el9_3.noarch.rpm removed
+2024-01-28T01:33:24-0500 DDEBUG /var/cache/dnf/ol9_baseos_latest-b84601b3ea4c211b/packages/python3-rpm-4.16.1.3-27.el9_3.x86_64.rpm removed
+2024-01-28T01:33:24-0500 DDEBUG /var/cache/dnf/ol9_baseos_latest-b84601b3ea4c211b/packages/kernel-modules-core-5.14.0-362.18.0.1.el9_3.x86_64.rpm removed
+2024-01-28T01:33:24-0500 DDEBUG /var/cache/dnf/ol9_baseos_latest-b84601b3ea4c211b/packages/rpm-sign-libs-4.16.1.3-27.el9_3.x86_64.rpm removed
+2024-01-28T01:33:24-0500 DDEBUG /var/cache/dnf/ol9_baseos_latest-b84601b3ea4c211b/packages/sqlite-libs-3.34.1-7.el9_3.x86_64.rpm removed
+2024-01-28T01:33:24-0500 DDEBUG /var/cache/dnf/ol9_baseos_latest-b84601b3ea4c211b/packages/kernel-5.14.0-362.18.0.1.el9_3.x86_64.rpm removed
+2024-01-28T01:33:24-0500 DDEBUG /var/cache/dnf/ol9_baseos_latest-b84601b3ea4c211b/packages/kernel-tools-libs-5.14.0-362.18.0.1.el9_3.x86_64.rpm removed
+2024-01-28T01:33:24-0500 DDEBUG /var/cache/dnf/ol9_baseos_latest-b84601b3ea4c211b/packages/rpm-libs-4.16.1.3-27.el9_3.x86_64.rpm removed
+2024-01-28T01:33:24-0500 DDEBUG /var/cache/dnf/ol9_baseos_latest-b84601b3ea4c211b/packages/NetworkManager-libnm-1.44.0-4.0.1.el9_3.x86_64.rpm removed
+2024-01-28T01:33:24-0500 DDEBUG /var/cache/dnf/ol9_baseos_latest-b84601b3ea4c211b/packages/python3-3.9.18-1.el9_3.1.x86_64.rpm removed
+2024-01-28T01:33:26-0500 DDEBUG Plugins were unloaded.
+2024-01-28T01:33:36-0500 INFO --- logging initialized ---
+2024-01-28T01:33:36-0500 DDEBUG timer: config: 2 ms
+2024-01-28T01:33:36-0500 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade, ulninfo
+2024-01-28T01:33:36-0500 DEBUG DNF version: 4.14.0
+2024-01-28T01:33:36-0500 DDEBUG Command: dnf update 
+2024-01-28T01:33:36-0500 DDEBUG Installroot: /
+2024-01-28T01:33:36-0500 DDEBUG Releasever: 9
+2024-01-28T01:33:36-0500 DEBUG cachedir: /var/cache/dnf
+2024-01-28T01:33:36-0500 DDEBUG Base command: update
+2024-01-28T01:33:36-0500 DDEBUG Extra commands: ['update']
+2024-01-28T01:33:36-0500 DEBUG User-Agent: constructed: 'libdnf (Oracle Linux Server 9.3; server; Linux.x86_64)'
+2024-01-28T01:33:36-0500 DEBUG repo: using cache for: ol9_baseos_latest
+2024-01-28T01:33:36-0500 DEBUG ol9_baseos_latest: using metadata from Fri 26 Jan 2024 01:03:59 PM EST.
+2024-01-28T01:33:36-0500 DEBUG repo: using cache for: ol9_appstream
+2024-01-28T01:33:36-0500 DEBUG ol9_appstream: using metadata from Fri 26 Jan 2024 01:09:25 PM EST.
+2024-01-28T01:33:36-0500 DEBUG repo: using cache for: ol9_UEKR7
+2024-01-28T01:33:36-0500 DEBUG ol9_UEKR7: using metadata from Fri 12 Jan 2024 03:35:20 PM EST.
+2024-01-28T01:33:36-0500 INFO Last metadata expiration check: 0:06:28 ago on Sun 28 Jan 2024 01:27:08 AM EST.
+2024-01-28T01:33:36-0500 DDEBUG timer: sack setup: 533 ms
+2024-01-28T01:33:37-0500 DEBUG --> Starting dependency resolution
+2024-01-28T01:33:37-0500 DEBUG --> Finished dependency resolution
+2024-01-28T01:33:37-0500 DDEBUG timer: depsolve: 106 ms
+2024-01-28T01:33:37-0500 INFO Dependencies resolved.
+2024-01-28T01:33:37-0500 INFO Nothing to do.
+2024-01-28T01:33:37-0500 INFO Complete!
+2024-01-28T01:33:37-0500 DDEBUG Cleaning up.
+2024-01-28T01:33:37-0500 DDEBUG Plugins were unloaded.
+2024-01-28T01:33:48-0500 INFO --- logging initialized ---
+2024-01-28T01:33:48-0500 DDEBUG timer: config: 2 ms
+2024-01-28T01:33:48-0500 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade, ulninfo
+2024-01-28T01:33:48-0500 DEBUG DNF version: 4.14.0
+2024-01-28T01:33:48-0500 DDEBUG Command: dnf upgrade 
+2024-01-28T01:33:48-0500 DDEBUG Installroot: /
+2024-01-28T01:33:48-0500 DDEBUG Releasever: 9
+2024-01-28T01:33:48-0500 DEBUG cachedir: /var/cache/dnf
+2024-01-28T01:33:48-0500 DDEBUG Base command: upgrade
+2024-01-28T01:33:48-0500 DDEBUG Extra commands: ['upgrade']
+2024-01-28T01:33:48-0500 DEBUG User-Agent: constructed: 'libdnf (Oracle Linux Server 9.3; server; Linux.x86_64)'
+2024-01-28T01:33:49-0500 DEBUG repo: using cache for: ol9_baseos_latest
+2024-01-28T01:33:49-0500 DEBUG ol9_baseos_latest: using metadata from Fri 26 Jan 2024 01:03:59 PM EST.
+2024-01-28T01:33:49-0500 DEBUG repo: using cache for: ol9_appstream
+2024-01-28T01:33:49-0500 DEBUG ol9_appstream: using metadata from Fri 26 Jan 2024 01:09:25 PM EST.
+2024-01-28T01:33:49-0500 DEBUG repo: using cache for: ol9_UEKR7
+2024-01-28T01:33:49-0500 DEBUG ol9_UEKR7: using metadata from Fri 12 Jan 2024 03:35:20 PM EST.
+2024-01-28T01:33:49-0500 INFO Last metadata expiration check: 0:06:41 ago on Sun 28 Jan 2024 01:27:08 AM EST.
+2024-01-28T01:33:49-0500 DDEBUG timer: sack setup: 518 ms
+2024-01-28T01:33:49-0500 DEBUG --> Starting dependency resolution
+2024-01-28T01:33:49-0500 DEBUG --> Finished dependency resolution
+2024-01-28T01:33:49-0500 DDEBUG timer: depsolve: 97 ms
+2024-01-28T01:33:49-0500 INFO Dependencies resolved.
+2024-01-28T01:33:49-0500 INFO Nothing to do.
+2024-01-28T01:33:49-0500 INFO Complete!
+2024-01-28T01:33:49-0500 DDEBUG Cleaning up.
+2024-01-28T01:33:49-0500 DDEBUG Plugins were unloaded.
+2024-01-28T01:41:15-0500 INFO --- logging initialized ---
+2024-01-28T01:41:15-0500 DDEBUG timer: config: 2 ms
+2024-01-28T01:41:15-0500 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade, ulninfo
+2024-01-28T01:41:15-0500 DEBUG DNF version: 4.14.0
+2024-01-28T01:41:15-0500 DDEBUG Command: dnf install kernel-uel-devel -y 
+2024-01-28T01:41:15-0500 DDEBUG Installroot: /
+2024-01-28T01:41:15-0500 DDEBUG Releasever: 9
+2024-01-28T01:41:15-0500 DEBUG cachedir: /var/cache/dnf
+2024-01-28T01:41:15-0500 DDEBUG Base command: install
+2024-01-28T01:41:15-0500 DDEBUG Extra commands: ['install', 'kernel-uel-devel', '-y']
+2024-01-28T01:41:15-0500 DEBUG User-Agent: constructed: 'libdnf (Oracle Linux Server 9.3; server; Linux.x86_64)'
+2024-01-28T01:41:15-0500 DEBUG repo: using cache for: ol9_baseos_latest
+2024-01-28T01:41:15-0500 DEBUG ol9_baseos_latest: using metadata from Fri 26 Jan 2024 01:03:59 PM EST.
+2024-01-28T01:41:15-0500 DEBUG repo: using cache for: ol9_appstream
+2024-01-28T01:41:15-0500 DEBUG ol9_appstream: using metadata from Fri 26 Jan 2024 01:09:25 PM EST.
+2024-01-28T01:41:15-0500 DEBUG repo: using cache for: ol9_UEKR7
+2024-01-28T01:41:15-0500 DEBUG ol9_UEKR7: using metadata from Fri 12 Jan 2024 03:35:20 PM EST.
+2024-01-28T01:41:15-0500 INFO Last metadata expiration check: 0:14:07 ago on Sun 28 Jan 2024 01:27:08 AM EST.
+2024-01-28T01:41:16-0500 DDEBUG timer: sack setup: 568 ms
+2024-01-28T01:41:16-0500 INFO No match for argument: [1mkernel-uel-devel(B[m
+2024-01-28T01:41:16-0500 DDEBUG Cleaning up.
+2024-01-28T01:41:16-0500 DDEBUG Plugins were unloaded.
+2024-01-28T01:41:16-0500 SUBDEBUG 
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/dnf/cli/main.py", line 67, in main
+    return _main(base, args, cli_class, option_parser_class)
+  File "/usr/lib/python3.9/site-packages/dnf/cli/main.py", line 106, in _main
+    return cli_run(cli, base)
+  File "/usr/lib/python3.9/site-packages/dnf/cli/main.py", line 122, in cli_run
+    cli.run()
+  File "/usr/lib/python3.9/site-packages/dnf/cli/cli.py", line 1057, in run
+    return self.command.run()
+  File "/usr/lib/python3.9/site-packages/dnf/cli/commands/install.py", line 118, in run
+    raise dnf.exceptions.PackagesNotAvailableError(_("Unable to find a match"),
+dnf.exceptions.PackagesNotAvailableError: Unable to find a match: kernel-uel-devel
+2024-01-28T01:41:16-0500 CRITICAL Error: Unable to find a match: kernel-uel-devel
+2024-01-28T01:41:27-0500 INFO --- logging initialized ---
+2024-01-28T01:41:27-0500 DDEBUG timer: config: 3 ms
+2024-01-28T01:41:27-0500 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade, ulninfo
+2024-01-28T01:41:27-0500 DEBUG DNF version: 4.14.0
+2024-01-28T01:41:27-0500 DDEBUG Command: dnf install kernel-uek-devel -y 
+2024-01-28T01:41:27-0500 DDEBUG Installroot: /
+2024-01-28T01:41:27-0500 DDEBUG Releasever: 9
+2024-01-28T01:41:27-0500 DEBUG cachedir: /var/cache/dnf
+2024-01-28T01:41:27-0500 DDEBUG Base command: install
+2024-01-28T01:41:27-0500 DDEBUG Extra commands: ['install', 'kernel-uek-devel', '-y']
+2024-01-28T01:41:27-0500 DEBUG User-Agent: constructed: 'libdnf (Oracle Linux Server 9.3; server; Linux.x86_64)'
+2024-01-28T01:41:27-0500 DEBUG repo: using cache for: ol9_baseos_latest
+2024-01-28T01:41:27-0500 DEBUG ol9_baseos_latest: using metadata from Fri 26 Jan 2024 01:03:59 PM EST.
+2024-01-28T01:41:27-0500 DEBUG repo: using cache for: ol9_appstream
+2024-01-28T01:41:27-0500 DEBUG ol9_appstream: using metadata from Fri 26 Jan 2024 01:09:25 PM EST.
+2024-01-28T01:41:27-0500 DEBUG repo: using cache for: ol9_UEKR7
+2024-01-28T01:41:27-0500 DEBUG ol9_UEKR7: using metadata from Fri 12 Jan 2024 03:35:20 PM EST.
+2024-01-28T01:41:27-0500 INFO Last metadata expiration check: 0:14:19 ago on Sun 28 Jan 2024 01:27:08 AM EST.
+2024-01-28T01:41:27-0500 DDEBUG timer: sack setup: 559 ms
+2024-01-28T01:41:27-0500 DEBUG --> Starting dependency resolution
+2024-01-28T01:41:27-0500 DEBUG ---> Package kernel-uek-devel.x86_64 5.15.0-202.135.2.el9uek will be installed
+2024-01-28T01:41:27-0500 DEBUG --> Finished dependency resolution
+2024-01-28T01:41:27-0500 DDEBUG timer: depsolve: 81 ms
+2024-01-28T01:41:27-0500 INFO Dependencies resolved.
+2024-01-28T01:41:27-0500 INFO ==================================================================================================
+ Package                  Architecture   Version                          Repository         Size
+==================================================================================================
+Installing:
+ [1m[32mkernel-uek-devel        (B[m x86_64         5.15.0-202.135.2.el9uek          ol9_UEKR7          39 M
+
+Transaction Summary
+==================================================================================================
+Install  1 Package
+
+2024-01-28T01:41:27-0500 INFO Total download size: 39 M
+2024-01-28T01:41:27-0500 INFO Installed size: 87 M
+2024-01-28T01:41:27-0500 INFO Downloading Packages:
+2024-01-28T01:41:29-0500 INFO --------------------------------------------------------------------------------------------------
+2024-01-28T01:41:29-0500 INFO Total                                                              26 MB/s |  39 MB     00:01     
+2024-01-28T01:41:29-0500 DEBUG Using rpmkeys executable at /bin/rpmkeys to verify signatures
+2024-01-28T01:41:29-0500 INFO Running transaction check
+2024-01-28T01:41:29-0500 INFO Transaction check succeeded.
+2024-01-28T01:41:29-0500 INFO Running transaction test
+2024-01-28T01:41:30-0500 INFO Transaction test succeeded.
+2024-01-28T01:41:30-0500 DDEBUG timer: transaction test: 761 ms
+2024-01-28T01:41:30-0500 INFO Running transaction
+2024-01-28T01:41:30-0500 DDEBUG RPM transaction start.
+2024-01-28T01:41:54-0500 DDEBUG RPM transaction over.
+2024-01-28T01:41:54-0500 DDEBUG timer: verify transaction: 301 ms
+2024-01-28T01:41:54-0500 DDEBUG timer: transaction: 23962 ms
+2024-01-28T01:41:54-0500 DEBUG Completion plugin: Generating completion cache...
+2024-01-28T01:41:55-0500 DEBUG Installed: kernel-uek-devel-5.15.0-202.135.2.el9uek.x86_64
+2024-01-28T01:41:55-0500 INFO Complete!
+2024-01-28T01:41:55-0500 DDEBUG Cleaning up.
+2024-01-28T01:41:55-0500 DDEBUG /var/cache/dnf/ol9_UEKR7-de4c9e404c09e83b/packages/kernel-uek-devel-5.15.0-202.135.2.el9uek.x86_64.rpm removed
+2024-01-28T01:41:56-0500 DDEBUG Plugins were unloaded.
+2024-01-28T01:42:41-0500 INFO --- logging initialized ---
+2024-01-28T01:42:41-0500 DDEBUG timer: config: 2 ms
+2024-01-28T01:42:41-0500 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade, ulninfo
+2024-01-28T01:42:41-0500 DEBUG DNF version: 4.14.0
+2024-01-28T01:42:41-0500 DDEBUG Command: dnf install kernel-devel -y 
+2024-01-28T01:42:41-0500 DDEBUG Installroot: /
+2024-01-28T01:42:41-0500 DDEBUG Releasever: 9
+2024-01-28T01:42:41-0500 DEBUG cachedir: /var/cache/dnf
+2024-01-28T01:42:41-0500 DDEBUG Base command: install
+2024-01-28T01:42:41-0500 DDEBUG Extra commands: ['install', 'kernel-devel', '-y']
+2024-01-28T01:42:41-0500 DEBUG User-Agent: constructed: 'libdnf (Oracle Linux Server 9.3; server; Linux.x86_64)'
+2024-01-28T01:42:41-0500 DEBUG repo: using cache for: ol9_baseos_latest
+2024-01-28T01:42:41-0500 DEBUG ol9_baseos_latest: using metadata from Fri 26 Jan 2024 01:03:59 PM EST.
+2024-01-28T01:42:41-0500 DEBUG repo: using cache for: ol9_appstream
+2024-01-28T01:42:41-0500 DEBUG ol9_appstream: using metadata from Fri 26 Jan 2024 01:09:25 PM EST.
+2024-01-28T01:42:41-0500 DEBUG repo: using cache for: ol9_UEKR7
+2024-01-28T01:42:41-0500 DEBUG ol9_UEKR7: using metadata from Fri 12 Jan 2024 03:35:20 PM EST.
+2024-01-28T01:42:41-0500 INFO Last metadata expiration check: 0:15:33 ago on Sun 28 Jan 2024 01:27:08 AM EST.
+2024-01-28T01:42:41-0500 DDEBUG timer: sack setup: 590 ms
+2024-01-28T01:42:41-0500 DEBUG --> Starting dependency resolution
+2024-01-28T01:42:41-0500 DEBUG ---> Package make.x86_64 1:4.3-7.el9 will be installed
+2024-01-28T01:42:41-0500 DEBUG ---> Package bison.x86_64 3.7.4-5.el9 will be installed
+2024-01-28T01:42:41-0500 DEBUG ---> Package elfutils-libelf-devel.x86_64 0.189-3.el9 will be installed
+2024-01-28T01:42:41-0500 DEBUG ---> Package flex.x86_64 2.6.4-9.el9 will be installed
+2024-01-28T01:42:41-0500 DEBUG ---> Package gcc.x86_64 11.4.1-2.1.0.1.el9 will be installed
+2024-01-28T01:42:41-0500 DEBUG ---> Package glibc-devel.x86_64 2.34-83.0.1.el9_3.7 will be installed
+2024-01-28T01:42:41-0500 DEBUG ---> Package glibc-headers.x86_64 2.34-83.0.1.el9_3.7 will be installed
+2024-01-28T01:42:41-0500 DEBUG ---> Package kernel-devel.x86_64 5.14.0-362.18.0.1.el9_3 will be installed
+2024-01-28T01:42:41-0500 DEBUG ---> Package kernel-headers.x86_64 5.14.0-362.18.0.1.el9_3 will be installed
+2024-01-28T01:42:41-0500 DEBUG ---> Package libxcrypt-devel.x86_64 4.4.18-3.el9 will be installed
+2024-01-28T01:42:41-0500 DEBUG ---> Package libzstd-devel.x86_64 1.5.1-2.el9 will be installed
+2024-01-28T01:42:41-0500 DEBUG ---> Package m4.x86_64 1.4.19-1.el9 will be installed
+2024-01-28T01:42:41-0500 DEBUG ---> Package openssl-devel.x86_64 1:3.0.7-25.0.1.el9_3 will be installed
+2024-01-28T01:42:41-0500 DEBUG ---> Package zlib-devel.x86_64 1.2.11-40.el9 will be installed
+2024-01-28T01:42:41-0500 DEBUG --> Finished dependency resolution
+2024-01-28T01:42:41-0500 DDEBUG timer: depsolve: 85 ms
+2024-01-28T01:42:41-0500 INFO Dependencies resolved.
+2024-01-28T01:42:41-0500 INFO ==================================================================================================
+ Package                    Arch        Version                      Repository              Size
+==================================================================================================
+Installing:
+ [1m[32mkernel-devel              (B[m x86_64      5.14.0-362.18.0.1.el9_3      ol9_appstream           36 M
+Installing dependencies:
+ [1m[32mbison                     (B[m x86_64      3.7.4-5.el9                  ol9_appstream          1.0 M
+ [1m[32melfutils-libelf-devel     (B[m x86_64      0.189-3.el9                  ol9_appstream           30 k
+ [1m[32mflex                      (B[m x86_64      2.6.4-9.el9                  ol9_appstream          341 k
+ [1m[32mgcc                       (B[m x86_64      11.4.1-2.1.0.1.el9           ol9_appstream           32 M
+ [1m[32mglibc-devel               (B[m x86_64      2.34-83.0.1.el9_3.7          ol9_appstream           44 k
+ [1m[32mglibc-headers             (B[m x86_64      2.34-83.0.1.el9_3.7          ol9_appstream          896 k
+ [1m[32mkernel-headers            (B[m x86_64      5.14.0-362.18.0.1.el9_3      ol9_appstream          7.2 M
+ [1m[32mlibxcrypt-devel           (B[m x86_64      4.4.18-3.el9                 ol9_appstream           42 k
+ [1m[32mlibzstd-devel             (B[m x86_64      1.5.1-2.el9                  ol9_appstream           51 k
+ [1m[32mm4                        (B[m x86_64      1.4.19-1.el9                 ol9_appstream          333 k
+ [1m[32mmake                      (B[m x86_64      1:4.3-7.el9                  ol9_baseos_latest      571 k
+ [1m[32mopenssl-devel             (B[m x86_64      1:3.0.7-25.0.1.el9_3         ol9_appstream          3.7 M
+ [1m[32mzlib-devel                (B[m x86_64      1.2.11-40.el9                ol9_appstream           51 k
+
+Transaction Summary
+==================================================================================================
+Install  14 Packages
+
+2024-01-28T01:42:41-0500 INFO Total download size: 83 M
+2024-01-28T01:42:41-0500 INFO Installed size: 169 M
+2024-01-28T01:42:41-0500 INFO Downloading Packages:
+2024-01-28T01:42:43-0500 INFO --------------------------------------------------------------------------------------------------
+2024-01-28T01:42:43-0500 INFO Total                                                              44 MB/s |  83 MB     00:01     
+2024-01-28T01:42:43-0500 DEBUG Using rpmkeys executable at /bin/rpmkeys to verify signatures
+2024-01-28T01:42:44-0500 INFO Running transaction check
+2024-01-28T01:42:44-0500 INFO Transaction check succeeded.
+2024-01-28T01:42:44-0500 INFO Running transaction test
+2024-01-28T01:42:45-0500 INFO Transaction test succeeded.
+2024-01-28T01:42:45-0500 DDEBUG timer: transaction test: 1141 ms
+2024-01-28T01:42:45-0500 INFO Running transaction
+2024-01-28T01:42:45-0500 DDEBUG RPM transaction start.
+2024-01-28T01:43:21-0500 DDEBUG RPM transaction over.
+2024-01-28T01:43:22-0500 DDEBUG timer: verify transaction: 352 ms
+2024-01-28T01:43:22-0500 DDEBUG timer: transaction: 36707 ms
+2024-01-28T01:43:22-0500 DEBUG Completion plugin: Generating completion cache...
+2024-01-28T01:43:22-0500 DEBUG Installed: bison-3.7.4-5.el9.x86_64
+2024-01-28T01:43:22-0500 DEBUG Installed: elfutils-libelf-devel-0.189-3.el9.x86_64
+2024-01-28T01:43:22-0500 DEBUG Installed: flex-2.6.4-9.el9.x86_64
+2024-01-28T01:43:22-0500 DEBUG Installed: gcc-11.4.1-2.1.0.1.el9.x86_64
+2024-01-28T01:43:22-0500 DEBUG Installed: glibc-devel-2.34-83.0.1.el9_3.7.x86_64
+2024-01-28T01:43:22-0500 DEBUG Installed: glibc-headers-2.34-83.0.1.el9_3.7.x86_64
+2024-01-28T01:43:22-0500 DEBUG Installed: kernel-devel-5.14.0-362.18.0.1.el9_3.x86_64
+2024-01-28T01:43:22-0500 DEBUG Installed: kernel-headers-5.14.0-362.18.0.1.el9_3.x86_64
+2024-01-28T01:43:22-0500 DEBUG Installed: libxcrypt-devel-4.4.18-3.el9.x86_64
+2024-01-28T01:43:22-0500 DEBUG Installed: libzstd-devel-1.5.1-2.el9.x86_64
+2024-01-28T01:43:22-0500 DEBUG Installed: m4-1.4.19-1.el9.x86_64
+2024-01-28T01:43:22-0500 DEBUG Installed: make-1:4.3-7.el9.x86_64
+2024-01-28T01:43:22-0500 DEBUG Installed: openssl-devel-1:3.0.7-25.0.1.el9_3.x86_64
+2024-01-28T01:43:22-0500 DEBUG Installed: zlib-devel-1.2.11-40.el9.x86_64
+2024-01-28T01:43:22-0500 INFO Complete!
+2024-01-28T01:43:22-0500 DDEBUG Cleaning up.
+2024-01-28T01:43:22-0500 DDEBUG /var/cache/dnf/ol9_appstream-46874f0a9b913672/packages/glibc-devel-2.34-83.0.1.el9_3.7.x86_64.rpm removed
+2024-01-28T01:43:22-0500 DDEBUG /var/cache/dnf/ol9_appstream-46874f0a9b913672/packages/bison-3.7.4-5.el9.x86_64.rpm removed
+2024-01-28T01:43:22-0500 DDEBUG /var/cache/dnf/ol9_appstream-46874f0a9b913672/packages/glibc-headers-2.34-83.0.1.el9_3.7.x86_64.rpm removed
+2024-01-28T01:43:22-0500 DDEBUG /var/cache/dnf/ol9_appstream-46874f0a9b913672/packages/openssl-devel-3.0.7-25.0.1.el9_3.x86_64.rpm removed
+2024-01-28T01:43:22-0500 DDEBUG /var/cache/dnf/ol9_appstream-46874f0a9b913672/packages/flex-2.6.4-9.el9.x86_64.rpm removed
+2024-01-28T01:43:22-0500 DDEBUG /var/cache/dnf/ol9_appstream-46874f0a9b913672/packages/kernel-headers-5.14.0-362.18.0.1.el9_3.x86_64.rpm removed
+2024-01-28T01:43:22-0500 DDEBUG /var/cache/dnf/ol9_baseos_latest-b84601b3ea4c211b/packages/make-4.3-7.el9.x86_64.rpm removed
+2024-01-28T01:43:22-0500 DDEBUG /var/cache/dnf/ol9_appstream-46874f0a9b913672/packages/gcc-11.4.1-2.1.0.1.el9.x86_64.rpm removed
+2024-01-28T01:43:22-0500 DDEBUG /var/cache/dnf/ol9_appstream-46874f0a9b913672/packages/libzstd-devel-1.5.1-2.el9.x86_64.rpm removed
+2024-01-28T01:43:22-0500 DDEBUG /var/cache/dnf/ol9_appstream-46874f0a9b913672/packages/elfutils-libelf-devel-0.189-3.el9.x86_64.rpm removed
+2024-01-28T01:43:22-0500 DDEBUG /var/cache/dnf/ol9_appstream-46874f0a9b913672/packages/m4-1.4.19-1.el9.x86_64.rpm removed
+2024-01-28T01:43:22-0500 DDEBUG /var/cache/dnf/ol9_appstream-46874f0a9b913672/packages/kernel-devel-5.14.0-362.18.0.1.el9_3.x86_64.rpm removed
+2024-01-28T01:43:22-0500 DDEBUG /var/cache/dnf/ol9_appstream-46874f0a9b913672/packages/zlib-devel-1.2.11-40.el9.x86_64.rpm removed
+2024-01-28T01:43:22-0500 DDEBUG /var/cache/dnf/ol9_appstream-46874f0a9b913672/packages/libxcrypt-devel-4.4.18-3.el9.x86_64.rpm removed
+2024-01-28T01:43:24-0500 DDEBUG Plugins were unloaded.
+2024-01-28T01:43:56-0500 INFO --- logging initialized ---
+2024-01-28T01:43:56-0500 DDEBUG timer: config: 2 ms
+2024-01-28T01:43:56-0500 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade, ulninfo
+2024-01-28T01:43:56-0500 DEBUG DNF version: 4.14.0
+2024-01-28T01:43:56-0500 DDEBUG Command: dnf install glx-utils -y 
+2024-01-28T01:43:56-0500 DDEBUG Installroot: /
+2024-01-28T01:43:56-0500 DDEBUG Releasever: 9
+2024-01-28T01:43:56-0500 DEBUG cachedir: /var/cache/dnf
+2024-01-28T01:43:56-0500 DDEBUG Base command: install
+2024-01-28T01:43:56-0500 DDEBUG Extra commands: ['install', 'glx-utils', '-y']
+2024-01-28T01:43:56-0500 DEBUG User-Agent: constructed: 'libdnf (Oracle Linux Server 9.3; server; Linux.x86_64)'
+2024-01-28T01:43:57-0500 DEBUG repo: using cache for: ol9_baseos_latest
+2024-01-28T01:43:57-0500 DEBUG ol9_baseos_latest: using metadata from Fri 26 Jan 2024 01:03:59 PM EST.
+2024-01-28T01:43:57-0500 DEBUG repo: using cache for: ol9_appstream
+2024-01-28T01:43:57-0500 DEBUG ol9_appstream: using metadata from Fri 26 Jan 2024 01:09:25 PM EST.
+2024-01-28T01:43:57-0500 DEBUG repo: using cache for: ol9_UEKR7
+2024-01-28T01:43:57-0500 DEBUG ol9_UEKR7: using metadata from Fri 12 Jan 2024 03:35:20 PM EST.
+2024-01-28T01:43:57-0500 INFO Last metadata expiration check: 0:16:49 ago on Sun 28 Jan 2024 01:27:08 AM EST.
+2024-01-28T01:43:57-0500 DDEBUG timer: sack setup: 601 ms
+2024-01-28T01:43:57-0500 INFO Package glx-utils-8.4.0-12.20210504git0f9e7d9.el9.x86_64 is already installed.
+2024-01-28T01:43:57-0500 DEBUG --> Starting dependency resolution
+2024-01-28T01:43:57-0500 DEBUG --> Finished dependency resolution
+2024-01-28T01:43:57-0500 DDEBUG timer: depsolve: 86 ms
+2024-01-28T01:43:57-0500 INFO Dependencies resolved.
+2024-01-28T01:43:57-0500 INFO Nothing to do.
+2024-01-28T01:43:57-0500 INFO Complete!
+2024-01-28T01:43:57-0500 DDEBUG Cleaning up.
+2024-01-28T01:43:57-0500 DDEBUG Plugins were unloaded.
+2024-01-28T02:03:10-0500 INFO --- logging initialized ---
+2024-01-28T02:03:10-0500 DDEBUG timer: config: 22 ms
+2024-01-28T02:03:11-0500 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade, ulninfo
+2024-01-28T02:03:11-0500 DEBUG DNF version: 4.14.0
+2024-01-28T02:03:11-0500 DDEBUG Command: dnf makecache --timer 
+2024-01-28T02:03:11-0500 DDEBUG Installroot: /
+2024-01-28T02:03:11-0500 DDEBUG Releasever: 9
+2024-01-28T02:03:11-0500 DEBUG cachedir: /var/cache/dnf
+2024-01-28T02:03:11-0500 DDEBUG Base command: makecache
+2024-01-28T02:03:11-0500 DDEBUG Extra commands: ['makecache', '--timer']
+2024-01-28T02:03:11-0500 DEBUG Making cache files for all metadata files.
+2024-01-28T02:03:11-0500 INFO Metadata cache refreshed recently.
+2024-01-28T02:03:11-0500 DDEBUG Cleaning up.
+2024-01-28T02:03:11-0500 DDEBUG Plugins were unloaded.
+2024-01-28T03:11:10-0500 INFO --- logging initialized ---
+2024-01-28T03:11:10-0500 DDEBUG timer: config: 2 ms
+2024-01-28T03:11:10-0500 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade, ulninfo
+2024-01-28T03:11:10-0500 DEBUG DNF version: 4.14.0
+2024-01-28T03:11:10-0500 DDEBUG Command: dnf makecache --timer 
+2024-01-28T03:11:10-0500 DDEBUG Installroot: /
+2024-01-28T03:11:10-0500 DDEBUG Releasever: 9
+2024-01-28T03:11:10-0500 DEBUG cachedir: /var/cache/dnf
+2024-01-28T03:11:10-0500 DDEBUG Base command: makecache
+2024-01-28T03:11:10-0500 DDEBUG Extra commands: ['makecache', '--timer']
+2024-01-28T03:11:10-0500 DEBUG Making cache files for all metadata files.
+2024-01-28T03:11:10-0500 INFO Metadata cache refreshed recently.
+2024-01-28T03:11:10-0500 DDEBUG Cleaning up.
+2024-01-28T03:11:10-0500 DDEBUG Plugins were unloaded.
+2024-01-28T14:46:30-0500 INFO --- logging initialized ---
+2024-01-28T14:46:30-0500 DDEBUG timer: config: 39 ms
+2024-01-28T14:46:31-0500 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade, ulninfo
+2024-01-28T14:46:31-0500 DEBUG DNF version: 4.14.0
+2024-01-28T14:46:31-0500 DDEBUG Command: dnf install htop 
+2024-01-28T14:46:31-0500 DDEBUG Installroot: /
+2024-01-28T14:46:31-0500 DDEBUG Releasever: 9
+2024-01-28T14:46:31-0500 DEBUG cachedir: /var/cache/dnf
+2024-01-28T14:46:31-0500 DDEBUG Base command: install
+2024-01-28T14:46:31-0500 DDEBUG Extra commands: ['install', 'htop']
+2024-01-28T14:46:31-0500 DEBUG User-Agent: constructed: 'libdnf (Oracle Linux Server 9.3; server; Linux.x86_64)'
+2024-01-28T14:46:31-0500 DEBUG repo: using cache for: ol9_baseos_latest
+2024-01-28T14:46:31-0500 DEBUG ol9_baseos_latest: using metadata from Fri 26 Jan 2024 01:03:59 PM EST.
+2024-01-28T14:46:31-0500 DEBUG repo: using cache for: ol9_appstream
+2024-01-28T14:46:31-0500 DEBUG ol9_appstream: using metadata from Fri 26 Jan 2024 01:09:25 PM EST.
+2024-01-28T14:46:31-0500 DEBUG repo: using cache for: ol9_UEKR7
+2024-01-28T14:46:32-0500 DEBUG ol9_UEKR7: using metadata from Fri 12 Jan 2024 03:35:20 PM EST.
+2024-01-28T14:46:32-0500 INFO Last metadata expiration check: 13:19:24 ago on Sun 28 Jan 2024 01:27:08 AM EST.
+2024-01-28T14:46:32-0500 DDEBUG timer: sack setup: 1226 ms
+2024-01-28T14:46:32-0500 INFO No match for argument: [1mhtop(B[m
+2024-01-28T14:46:32-0500 DDEBUG Cleaning up.
+2024-01-28T14:46:32-0500 DDEBUG Plugins were unloaded.
+2024-01-28T14:46:32-0500 SUBDEBUG 
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/dnf/cli/main.py", line 67, in main
+    return _main(base, args, cli_class, option_parser_class)
+  File "/usr/lib/python3.9/site-packages/dnf/cli/main.py", line 106, in _main
+    return cli_run(cli, base)
+  File "/usr/lib/python3.9/site-packages/dnf/cli/main.py", line 122, in cli_run
+    cli.run()
+  File "/usr/lib/python3.9/site-packages/dnf/cli/cli.py", line 1057, in run
+    return self.command.run()
+  File "/usr/lib/python3.9/site-packages/dnf/cli/commands/install.py", line 118, in run
+    raise dnf.exceptions.PackagesNotAvailableError(_("Unable to find a match"),
+dnf.exceptions.PackagesNotAvailableError: Unable to find a match: htop
+2024-01-28T14:46:32-0500 CRITICAL Error: Unable to find a match: htop
+2024-01-28T14:48:33-0500 INFO --- logging initialized ---
+2024-01-28T14:48:33-0500 DDEBUG timer: config: 2 ms
+2024-01-28T14:48:33-0500 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade, ulninfo
+2024-01-28T14:48:33-0500 DEBUG DNF version: 4.14.0
+2024-01-28T14:48:33-0500 DDEBUG Command: dnf makecache --timer 
+2024-01-28T14:48:33-0500 DDEBUG Installroot: /
+2024-01-28T14:48:33-0500 DDEBUG Releasever: 9
+2024-01-28T14:48:33-0500 DEBUG cachedir: /var/cache/dnf
+2024-01-28T14:48:33-0500 DDEBUG Base command: makecache
+2024-01-28T14:48:33-0500 DDEBUG Extra commands: ['makecache', '--timer']
+2024-01-28T14:48:33-0500 DEBUG Making cache files for all metadata files.
+2024-01-28T14:48:33-0500 DEBUG ol9_baseos_latest: has expired and will be refreshed.
+2024-01-28T14:48:33-0500 DEBUG ol9_appstream: has expired and will be refreshed.
+2024-01-28T14:48:33-0500 DEBUG ol9_UEKR7: has expired and will be refreshed.
+2024-01-28T14:48:33-0500 DEBUG reviving: 'ol9_baseos_latest' can be revived - repomd matches.
+2024-01-28T14:48:33-0500 DEBUG ol9_baseos_latest: using metadata from Fri 26 Jan 2024 01:03:59 PM EST.
+2024-01-28T14:48:33-0500 DEBUG reviving: 'ol9_appstream' can be revived - repomd matches.
+2024-01-28T14:48:33-0500 DEBUG ol9_appstream: using metadata from Fri 26 Jan 2024 01:09:25 PM EST.
+2024-01-28T14:48:33-0500 DEBUG reviving: 'ol9_UEKR7' can be revived - repomd matches.
+2024-01-28T14:48:33-0500 DEBUG ol9_UEKR7: using metadata from Fri 12 Jan 2024 03:35:20 PM EST.
+2024-01-28T14:48:33-0500 DEBUG User-Agent: constructed: 'libdnf (Oracle Linux Server 9.3; server; Linux.x86_64)'
+2024-01-28T14:48:34-0500 DDEBUG timer: sack setup: 752 ms
+2024-01-28T14:48:34-0500 INFO Metadata cache created.
+2024-01-28T14:48:34-0500 DDEBUG Cleaning up.
+2024-01-28T14:48:34-0500 DDEBUG Plugins were unloaded.
+2024-01-28T14:52:54-0500 INFO --- logging initialized ---
+2024-01-28T14:52:54-0500 DDEBUG timer: config: 2 ms
+2024-01-28T14:52:54-0500 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade, ulninfo
+2024-01-28T14:52:54-0500 DEBUG YUM version: 4.14.0
+2024-01-28T14:52:54-0500 DDEBUG Command: yum search epel-release 
+2024-01-28T14:52:54-0500 DDEBUG Installroot: /
+2024-01-28T14:52:54-0500 DDEBUG Releasever: 9
+2024-01-28T14:52:54-0500 DEBUG cachedir: /var/cache/dnf
+2024-01-28T14:52:54-0500 DDEBUG Base command: search
+2024-01-28T14:52:54-0500 DDEBUG Extra commands: ['search', 'epel-release']
+2024-01-28T14:52:54-0500 DEBUG User-Agent: constructed: 'libdnf (Oracle Linux Server 9.3; server; Linux.x86_64)'
+2024-01-28T14:52:55-0500 DEBUG repo: using cache for: ol9_baseos_latest
+2024-01-28T14:52:55-0500 DEBUG ol9_baseos_latest: using metadata from Fri 26 Jan 2024 01:03:59 PM EST.
+2024-01-28T14:52:55-0500 DEBUG repo: using cache for: ol9_appstream
+2024-01-28T14:52:55-0500 DEBUG ol9_appstream: using metadata from Fri 26 Jan 2024 01:09:25 PM EST.
+2024-01-28T14:52:55-0500 DEBUG repo: using cache for: ol9_UEKR7
+2024-01-28T14:52:55-0500 DEBUG ol9_UEKR7: using metadata from Fri 12 Jan 2024 03:35:20 PM EST.
+2024-01-28T14:52:55-0500 INFO Last metadata expiration check: 0:04:22 ago on Sun 28 Jan 2024 02:48:33 PM EST.
+2024-01-28T14:52:55-0500 DDEBUG timer: sack setup: 920 ms
+2024-01-28T14:52:55-0500 DEBUG Searching Packages: 
+2024-01-28T14:52:55-0500 DDEBUG Cleaning up.
+2024-01-28T14:52:55-0500 DDEBUG Plugins were unloaded.
+2024-01-28T14:53:11-0500 INFO --- logging initialized ---
+2024-01-28T14:53:11-0500 DDEBUG timer: config: 2 ms
+2024-01-28T14:53:11-0500 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade, ulninfo
+2024-01-28T14:53:11-0500 DEBUG YUM version: 4.14.0
+2024-01-28T14:53:11-0500 DDEBUG Command: yum install epel-release 
+2024-01-28T14:53:11-0500 DDEBUG Installroot: /
+2024-01-28T14:53:11-0500 DDEBUG Releasever: 9
+2024-01-28T14:53:11-0500 DEBUG cachedir: /var/cache/dnf
+2024-01-28T14:53:11-0500 DDEBUG Base command: install
+2024-01-28T14:53:11-0500 DDEBUG Extra commands: ['install', 'epel-release']
+2024-01-28T14:53:11-0500 DEBUG User-Agent: constructed: 'libdnf (Oracle Linux Server 9.3; server; Linux.x86_64)'
+2024-01-28T14:53:12-0500 DEBUG repo: using cache for: ol9_baseos_latest
+2024-01-28T14:53:12-0500 DEBUG ol9_baseos_latest: using metadata from Fri 26 Jan 2024 01:03:59 PM EST.
+2024-01-28T14:53:12-0500 DEBUG repo: using cache for: ol9_appstream
+2024-01-28T14:53:12-0500 DEBUG ol9_appstream: using metadata from Fri 26 Jan 2024 01:09:25 PM EST.
+2024-01-28T14:53:12-0500 DEBUG repo: using cache for: ol9_UEKR7
+2024-01-28T14:53:12-0500 DEBUG ol9_UEKR7: using metadata from Fri 12 Jan 2024 03:35:20 PM EST.
+2024-01-28T14:53:12-0500 INFO Last metadata expiration check: 0:04:39 ago on Sun 28 Jan 2024 02:48:33 PM EST.
+2024-01-28T14:53:12-0500 DDEBUG timer: sack setup: 576 ms
+2024-01-28T14:53:12-0500 DEBUG --> Starting dependency resolution
+2024-01-28T14:53:12-0500 DEBUG ---> Package oracle-epel-release-el9.x86_64 1.0-1.el9 will be installed
+2024-01-28T14:53:12-0500 DEBUG ---> Package yum-utils.noarch 4.3.0-11.0.1.el9_3 will be installed
+2024-01-28T14:53:12-0500 DEBUG --> Finished dependency resolution
+2024-01-28T14:53:12-0500 DDEBUG timer: depsolve: 81 ms
+2024-01-28T14:53:12-0500 INFO Dependencies resolved.
+2024-01-28T14:53:12-0500 INFO ========================================================================================================================================================
+ Package                                    Architecture              Version                                Repository                            Size
+========================================================================================================================================================
+Installing:
+ [1m[32moracle-epel-release-el9                   (B[m x86_64                    1.0-1.el9                              ol9_baseos_latest                     14 k
+Installing dependencies:
+ [1m[32myum-utils                                 (B[m noarch                    4.3.0-11.0.1.el9_3                     ol9_baseos_latest                     53 k
+
+Transaction Summary
+========================================================================================================================================================
+Install  2 Packages
+
+2024-01-28T14:53:12-0500 INFO Total download size: 67 k
+2024-01-28T14:53:12-0500 INFO Installed size: 41 k
+2024-01-28T14:53:20-0500 INFO Downloading Packages:
+2024-01-28T14:53:20-0500 INFO --------------------------------------------------------------------------------------------------------------------------------------------------------
+2024-01-28T14:53:20-0500 INFO Total                                                                                                                   351 kB/s |  67 kB     00:00     
+2024-01-28T14:53:20-0500 DEBUG Using rpmkeys executable at /bin/rpmkeys to verify signatures
+2024-01-28T14:53:20-0500 INFO Running transaction check
+2024-01-28T14:53:20-0500 INFO Transaction check succeeded.
+2024-01-28T14:53:20-0500 INFO Running transaction test
+2024-01-28T14:53:20-0500 INFO Transaction test succeeded.
+2024-01-28T14:53:20-0500 DDEBUG timer: transaction test: 426 ms
+2024-01-28T14:53:20-0500 INFO Running transaction
+2024-01-28T14:53:20-0500 DDEBUG RPM transaction start.
+2024-01-28T14:53:22-0500 DDEBUG RPM transaction over.
+2024-01-28T14:53:22-0500 DDEBUG timer: verify transaction: 301 ms
+2024-01-28T14:53:22-0500 DDEBUG timer: transaction: 1693 ms
+2024-01-28T14:53:22-0500 DEBUG Completion plugin: Generating completion cache...
+2024-01-28T14:53:23-0500 DEBUG Installed: oracle-epel-release-el9-1.0-1.el9.x86_64
+2024-01-28T14:53:23-0500 DEBUG Installed: yum-utils-4.3.0-11.0.1.el9_3.noarch
+2024-01-28T14:53:23-0500 INFO Complete!
+2024-01-28T14:53:23-0500 DDEBUG Cleaning up.
+2024-01-28T14:53:23-0500 DDEBUG /var/cache/dnf/ol9_baseos_latest-b84601b3ea4c211b/packages/oracle-epel-release-el9-1.0-1.el9.x86_64.rpm removed
+2024-01-28T14:53:23-0500 DDEBUG /var/cache/dnf/ol9_baseos_latest-b84601b3ea4c211b/packages/yum-utils-4.3.0-11.0.1.el9_3.noarch.rpm removed
+2024-01-28T14:53:23-0500 DDEBUG Plugins were unloaded.
+2024-01-28T14:53:39-0500 INFO --- logging initialized ---
+2024-01-28T14:53:39-0500 DDEBUG timer: config: 2 ms
+2024-01-28T14:53:40-0500 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade, ulninfo
+2024-01-28T14:53:40-0500 DEBUG YUM version: 4.14.0
+2024-01-28T14:53:40-0500 DDEBUG Command: yum search htop 
+2024-01-28T14:53:40-0500 DDEBUG Installroot: /
+2024-01-28T14:53:40-0500 DDEBUG Releasever: 9
+2024-01-28T14:53:40-0500 DEBUG cachedir: /var/cache/dnf
+2024-01-28T14:53:40-0500 DDEBUG Base command: search
+2024-01-28T14:53:40-0500 DDEBUG Extra commands: ['search', 'htop']
+2024-01-28T14:53:40-0500 DEBUG User-Agent: constructed: 'libdnf (Oracle Linux Server 9.3; server; Linux.x86_64)'
+2024-01-28T14:53:40-0500 DEBUG repo: downloading from remote: ol9_developer_EPEL
+2024-01-28T14:53:56-0500 DEBUG ol9_developer_EPEL: using metadata from Thu 25 Jan 2024 10:34:05 PM EST.
+2024-01-28T14:53:56-0500 DEBUG repo: using cache for: ol9_baseos_latest
+2024-01-28T14:53:56-0500 DEBUG ol9_baseos_latest: using metadata from Fri 26 Jan 2024 01:03:59 PM EST.
+2024-01-28T14:53:56-0500 DEBUG repo: using cache for: ol9_appstream
+2024-01-28T14:53:56-0500 DEBUG ol9_appstream: using metadata from Fri 26 Jan 2024 01:09:25 PM EST.
+2024-01-28T14:53:56-0500 DEBUG repo: using cache for: ol9_UEKR7
+2024-01-28T14:53:56-0500 DEBUG ol9_UEKR7: using metadata from Fri 12 Jan 2024 03:35:20 PM EST.
+2024-01-28T14:53:56-0500 INFO Last metadata expiration check: 0:00:16 ago on Sun 28 Jan 2024 02:53:40 PM EST.
+2024-01-28T14:53:59-0500 DDEBUG timer: sack setup: 19249 ms
+2024-01-28T14:53:59-0500 DEBUG Completion plugin: Generating completion cache...
+2024-01-28T14:53:59-0500 DEBUG Searching Packages: 
+2024-01-28T14:53:59-0500 DDEBUG Cleaning up.
+2024-01-28T14:53:59-0500 DDEBUG Plugins were unloaded.
+2024-01-28T14:55:02-0500 INFO --- logging initialized ---
+2024-01-28T14:55:02-0500 DDEBUG timer: config: 2 ms
+2024-01-28T14:55:02-0500 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade, ulninfo
+2024-01-28T14:55:02-0500 DEBUG DNF version: 4.14.0
+2024-01-28T14:55:02-0500 DDEBUG Command: dnf install htop -y 
+2024-01-28T14:55:02-0500 DDEBUG Installroot: /
+2024-01-28T14:55:02-0500 DDEBUG Releasever: 9
+2024-01-28T14:55:02-0500 DEBUG cachedir: /var/cache/dnf
+2024-01-28T14:55:02-0500 DDEBUG Base command: install
+2024-01-28T14:55:02-0500 DDEBUG Extra commands: ['install', 'htop', '-y']
+2024-01-28T14:55:02-0500 DEBUG User-Agent: constructed: 'libdnf (Oracle Linux Server 9.3; server; Linux.x86_64)'
+2024-01-28T14:55:02-0500 DEBUG repo: using cache for: ol9_developer_EPEL
+2024-01-28T14:55:02-0500 DEBUG ol9_developer_EPEL: using metadata from Thu 25 Jan 2024 10:34:05 PM EST.
+2024-01-28T14:55:02-0500 DEBUG repo: using cache for: ol9_baseos_latest
+2024-01-28T14:55:03-0500 DEBUG ol9_baseos_latest: using metadata from Fri 26 Jan 2024 01:03:59 PM EST.
+2024-01-28T14:55:03-0500 DEBUG repo: using cache for: ol9_appstream
+2024-01-28T14:55:03-0500 DEBUG ol9_appstream: using metadata from Fri 26 Jan 2024 01:09:25 PM EST.
+2024-01-28T14:55:03-0500 DEBUG repo: using cache for: ol9_UEKR7
+2024-01-28T14:55:03-0500 DEBUG ol9_UEKR7: using metadata from Fri 12 Jan 2024 03:35:20 PM EST.
+2024-01-28T14:55:03-0500 INFO Last metadata expiration check: 0:01:22 ago on Sun 28 Jan 2024 02:53:40 PM EST.
+2024-01-28T14:55:03-0500 DDEBUG timer: sack setup: 948 ms
+2024-01-28T14:55:03-0500 DEBUG --> Starting dependency resolution
+2024-01-28T14:55:03-0500 DEBUG ---> Package htop.x86_64 3.3.0-1.el9 will be installed
+2024-01-28T14:55:03-0500 DEBUG ---> Package hwloc-libs.x86_64 2.4.1-5.el9 will be installed
+2024-01-28T14:55:03-0500 DEBUG --> Finished dependency resolution
+2024-01-28T14:55:03-0500 DDEBUG timer: depsolve: 115 ms
+2024-01-28T14:55:03-0500 INFO Dependencies resolved.
+2024-01-28T14:55:03-0500 INFO ========================================================================================================================================================
+ Package                            Architecture                   Version                             Repository                                  Size
+========================================================================================================================================================
+Installing:
+ [1m[32mhtop                              (B[m x86_64                         3.3.0-1.el9                         ol9_developer_EPEL                         207 k
+Installing dependencies:
+ [1m[32mhwloc-libs                        (B[m x86_64                         2.4.1-5.el9                         ol9_baseos_latest                          2.1 M
+
+Transaction Summary
+========================================================================================================================================================
+Install  2 Packages
+
+2024-01-28T14:55:03-0500 INFO Total download size: 2.3 M
+2024-01-28T14:55:03-0500 INFO Installed size: 3.5 M
+2024-01-28T14:55:03-0500 INFO Downloading Packages:
+2024-01-28T14:55:04-0500 INFO --------------------------------------------------------------------------------------------------------------------------------------------------------
+2024-01-28T14:55:04-0500 INFO Total                                                                                                                   4.6 MB/s | 2.3 MB     00:00     
+2024-01-28T14:55:04-0500 DEBUG Using rpmkeys executable at /bin/rpmkeys to verify signatures
+2024-01-28T14:55:04-0500 INFO Running transaction check
+2024-01-28T14:55:04-0500 INFO Transaction check succeeded.
+2024-01-28T14:55:04-0500 INFO Running transaction test
+2024-01-28T14:55:05-0500 INFO Transaction test succeeded.
+2024-01-28T14:55:05-0500 DDEBUG timer: transaction test: 1102 ms
+2024-01-28T14:55:05-0500 INFO Running transaction
+2024-01-28T14:55:05-0500 DDEBUG RPM transaction start.
+2024-01-28T14:55:06-0500 DDEBUG RPM transaction over.
+2024-01-28T14:55:07-0500 DDEBUG timer: verify transaction: 277 ms
+2024-01-28T14:55:07-0500 DDEBUG timer: transaction: 1769 ms
+2024-01-28T14:55:07-0500 DEBUG Completion plugin: Generating completion cache...
+2024-01-28T14:55:07-0500 DEBUG Installed: htop-3.3.0-1.el9.x86_64
+2024-01-28T14:55:07-0500 DEBUG Installed: hwloc-libs-2.4.1-5.el9.x86_64
+2024-01-28T14:55:07-0500 INFO Complete!
+2024-01-28T14:55:07-0500 DDEBUG Cleaning up.
+2024-01-28T14:55:07-0500 DDEBUG /var/cache/dnf/ol9_developer_EPEL-31156a4a0bdc10c2/packages/htop-3.3.0-1.el9.x86_64.rpm removed
+2024-01-28T14:55:07-0500 DDEBUG /var/cache/dnf/ol9_baseos_latest-b84601b3ea4c211b/packages/hwloc-libs-2.4.1-5.el9.x86_64.rpm removed
+2024-01-28T14:55:07-0500 DDEBUG Plugins were unloaded.
+2024-01-28T14:56:27-0500 INFO --- logging initialized ---
+2024-01-28T14:56:27-0500 DDEBUG timer: config: 2 ms
+2024-01-28T14:56:28-0500 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade, ulninfo
+2024-01-28T14:56:28-0500 DEBUG DNF version: 4.14.0
+2024-01-28T14:56:28-0500 DDEBUG Command: dnf search btop++ 
+2024-01-28T14:56:28-0500 DDEBUG Installroot: /
+2024-01-28T14:56:28-0500 DDEBUG Releasever: 9
+2024-01-28T14:56:28-0500 DEBUG cachedir: /var/cache/dnf
+2024-01-28T14:56:28-0500 DDEBUG Base command: search
+2024-01-28T14:56:28-0500 DDEBUG Extra commands: ['search', 'btop++']
+2024-01-28T14:56:28-0500 DEBUG User-Agent: constructed: 'libdnf (Oracle Linux Server 9.3; server; Linux.x86_64)'
+2024-01-28T14:56:28-0500 DEBUG repo: using cache for: ol9_developer_EPEL
+2024-01-28T14:56:28-0500 DEBUG ol9_developer_EPEL: using metadata from Thu 25 Jan 2024 10:34:05 PM EST.
+2024-01-28T14:56:28-0500 DEBUG repo: using cache for: ol9_baseos_latest
+2024-01-28T14:56:28-0500 DEBUG ol9_baseos_latest: using metadata from Fri 26 Jan 2024 01:03:59 PM EST.
+2024-01-28T14:56:28-0500 DEBUG repo: using cache for: ol9_appstream
+2024-01-28T14:56:28-0500 DEBUG ol9_appstream: using metadata from Fri 26 Jan 2024 01:09:25 PM EST.
+2024-01-28T14:56:28-0500 DEBUG repo: using cache for: ol9_UEKR7
+2024-01-28T14:56:28-0500 DEBUG ol9_UEKR7: using metadata from Fri 12 Jan 2024 03:35:20 PM EST.
+2024-01-28T14:56:28-0500 INFO Last metadata expiration check: 0:02:48 ago on Sun 28 Jan 2024 02:53:40 PM EST.
+2024-01-28T14:56:28-0500 DDEBUG timer: sack setup: 973 ms
+2024-01-28T14:56:28-0500 DEBUG Searching Packages: 
+2024-01-28T14:56:29-0500 INFO No matches found.
+2024-01-28T14:56:29-0500 DDEBUG Cleaning up.
+2024-01-28T14:56:29-0500 DDEBUG Plugins were unloaded.
+2024-01-28T14:56:34-0500 INFO --- logging initialized ---
+2024-01-28T14:56:34-0500 DDEBUG timer: config: 2 ms
+2024-01-28T14:56:34-0500 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade, ulninfo
+2024-01-28T14:56:34-0500 DEBUG DNF version: 4.14.0
+2024-01-28T14:56:34-0500 DDEBUG Command: dnf search btop 
+2024-01-28T14:56:34-0500 DDEBUG Installroot: /
+2024-01-28T14:56:34-0500 DDEBUG Releasever: 9
+2024-01-28T14:56:34-0500 DEBUG cachedir: /var/cache/dnf
+2024-01-28T14:56:34-0500 DDEBUG Base command: search
+2024-01-28T14:56:34-0500 DDEBUG Extra commands: ['search', 'btop']
+2024-01-28T14:56:34-0500 DEBUG User-Agent: constructed: 'libdnf (Oracle Linux Server 9.3; server; Linux.x86_64)'
+2024-01-28T14:56:34-0500 DEBUG repo: using cache for: ol9_developer_EPEL
+2024-01-28T14:56:34-0500 DEBUG ol9_developer_EPEL: using metadata from Thu 25 Jan 2024 10:34:05 PM EST.
+2024-01-28T14:56:34-0500 DEBUG repo: using cache for: ol9_baseos_latest
+2024-01-28T14:56:34-0500 DEBUG ol9_baseos_latest: using metadata from Fri 26 Jan 2024 01:03:59 PM EST.
+2024-01-28T14:56:34-0500 DEBUG repo: using cache for: ol9_appstream
+2024-01-28T14:56:35-0500 DEBUG ol9_appstream: using metadata from Fri 26 Jan 2024 01:09:25 PM EST.
+2024-01-28T14:56:35-0500 DEBUG repo: using cache for: ol9_UEKR7
+2024-01-28T14:56:35-0500 DEBUG ol9_UEKR7: using metadata from Fri 12 Jan 2024 03:35:20 PM EST.
+2024-01-28T14:56:35-0500 INFO Last metadata expiration check: 0:02:54 ago on Sun 28 Jan 2024 02:53:40 PM EST.
+2024-01-28T14:56:35-0500 DDEBUG timer: sack setup: 981 ms
+2024-01-28T14:56:35-0500 DEBUG Searching Packages: 
+2024-01-28T14:56:35-0500 DDEBUG Cleaning up.
+2024-01-28T14:56:35-0500 DDEBUG Plugins were unloaded.
+2024-01-28T14:57:00-0500 INFO --- logging initialized ---
+2024-01-28T14:57:00-0500 DDEBUG timer: config: 2 ms
+2024-01-28T14:57:00-0500 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade, ulninfo
+2024-01-28T14:57:00-0500 DEBUG DNF version: 4.14.0
+2024-01-28T14:57:00-0500 DDEBUG Command: dnf search nmon 
+2024-01-28T14:57:00-0500 DDEBUG Installroot: /
+2024-01-28T14:57:00-0500 DDEBUG Releasever: 9
+2024-01-28T14:57:00-0500 DEBUG cachedir: /var/cache/dnf
+2024-01-28T14:57:00-0500 DDEBUG Base command: search
+2024-01-28T14:57:00-0500 DDEBUG Extra commands: ['search', 'nmon']
+2024-01-28T14:57:00-0500 DEBUG User-Agent: constructed: 'libdnf (Oracle Linux Server 9.3; server; Linux.x86_64)'
+2024-01-28T14:57:00-0500 DEBUG repo: using cache for: ol9_developer_EPEL
+2024-01-28T14:57:00-0500 DEBUG ol9_developer_EPEL: using metadata from Thu 25 Jan 2024 10:34:05 PM EST.
+2024-01-28T14:57:00-0500 DEBUG repo: using cache for: ol9_baseos_latest
+2024-01-28T14:57:00-0500 DEBUG ol9_baseos_latest: using metadata from Fri 26 Jan 2024 01:03:59 PM EST.
+2024-01-28T14:57:00-0500 DEBUG repo: using cache for: ol9_appstream
+2024-01-28T14:57:01-0500 DEBUG ol9_appstream: using metadata from Fri 26 Jan 2024 01:09:25 PM EST.
+2024-01-28T14:57:01-0500 DEBUG repo: using cache for: ol9_UEKR7
+2024-01-28T14:57:01-0500 DEBUG ol9_UEKR7: using metadata from Fri 12 Jan 2024 03:35:20 PM EST.
+2024-01-28T14:57:01-0500 INFO Last metadata expiration check: 0:03:20 ago on Sun 28 Jan 2024 02:53:40 PM EST.
+2024-01-28T14:57:01-0500 DDEBUG timer: sack setup: 989 ms
+2024-01-28T14:57:01-0500 DEBUG Searching Packages: 
+2024-01-28T14:57:01-0500 DDEBUG Cleaning up.
+2024-01-28T14:57:01-0500 DDEBUG Plugins were unloaded.
+2024-01-28T14:57:10-0500 INFO --- logging initialized ---
+2024-01-28T14:57:10-0500 DDEBUG timer: config: 2 ms
+2024-01-28T14:57:10-0500 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade, ulninfo
+2024-01-28T14:57:10-0500 DEBUG DNF version: 4.14.0
+2024-01-28T14:57:10-0500 DDEBUG Command: dnf install nmon 
+2024-01-28T14:57:10-0500 DDEBUG Installroot: /
+2024-01-28T14:57:10-0500 DDEBUG Releasever: 9
+2024-01-28T14:57:10-0500 DEBUG cachedir: /var/cache/dnf
+2024-01-28T14:57:10-0500 DDEBUG Base command: install
+2024-01-28T14:57:10-0500 DDEBUG Extra commands: ['install', 'nmon']
+2024-01-28T14:57:10-0500 DEBUG User-Agent: constructed: 'libdnf (Oracle Linux Server 9.3; server; Linux.x86_64)'
+2024-01-28T14:57:10-0500 DEBUG repo: using cache for: ol9_developer_EPEL
+2024-01-28T14:57:11-0500 DEBUG ol9_developer_EPEL: using metadata from Thu 25 Jan 2024 10:34:05 PM EST.
+2024-01-28T14:57:11-0500 DEBUG repo: using cache for: ol9_baseos_latest
+2024-01-28T14:57:11-0500 DEBUG ol9_baseos_latest: using metadata from Fri 26 Jan 2024 01:03:59 PM EST.
+2024-01-28T14:57:11-0500 DEBUG repo: using cache for: ol9_appstream
+2024-01-28T14:57:11-0500 DEBUG ol9_appstream: using metadata from Fri 26 Jan 2024 01:09:25 PM EST.
+2024-01-28T14:57:11-0500 DEBUG repo: using cache for: ol9_UEKR7
+2024-01-28T14:57:11-0500 DEBUG ol9_UEKR7: using metadata from Fri 12 Jan 2024 03:35:20 PM EST.
+2024-01-28T14:57:11-0500 INFO Last metadata expiration check: 0:03:31 ago on Sun 28 Jan 2024 02:53:40 PM EST.
+2024-01-28T14:57:11-0500 DDEBUG timer: sack setup: 931 ms
+2024-01-28T14:57:11-0500 DEBUG --> Starting dependency resolution
+2024-01-28T14:57:11-0500 DEBUG ---> Package nmon.x86_64 16p-1.el9 will be installed
+2024-01-28T14:57:11-0500 DEBUG --> Finished dependency resolution
+2024-01-28T14:57:11-0500 DDEBUG timer: depsolve: 162 ms
+2024-01-28T14:57:11-0500 INFO Dependencies resolved.
+2024-01-28T14:57:11-0500 INFO ========================================================================================================================================================
+ Package                        Architecture                     Version                             Repository                                    Size
+========================================================================================================================================================
+Installing:
+ [1m[32mnmon                          (B[m x86_64                           16p-1.el9                           ol9_developer_EPEL                            76 k
+
+Transaction Summary
+========================================================================================================================================================
+Install  1 Package
+
+2024-01-28T14:57:11-0500 INFO Total download size: 76 k
+2024-01-28T14:57:11-0500 INFO Installed size: 158 k
+2024-01-28T14:57:13-0500 INFO Downloading Packages:
+2024-01-28T14:57:16-0500 INFO --------------------------------------------------------------------------------------------------------------------------------------------------------
+2024-01-28T14:57:16-0500 INFO Total                                                                                                                    26 kB/s |  76 kB     00:02     
+2024-01-28T14:57:16-0500 DEBUG Using rpmkeys executable at /bin/rpmkeys to verify signatures
+2024-01-28T14:57:16-0500 INFO Running transaction check
+2024-01-28T14:57:16-0500 INFO Transaction check succeeded.
+2024-01-28T14:57:16-0500 INFO Running transaction test
+2024-01-28T14:57:16-0500 INFO Transaction test succeeded.
+2024-01-28T14:57:16-0500 DDEBUG timer: transaction test: 269 ms
+2024-01-28T14:57:16-0500 INFO Running transaction
+2024-01-28T14:57:16-0500 DDEBUG RPM transaction start.
+2024-01-28T14:57:17-0500 DDEBUG RPM transaction over.
+2024-01-28T14:57:18-0500 DDEBUG timer: verify transaction: 283 ms
+2024-01-28T14:57:18-0500 DDEBUG timer: transaction: 1291 ms
+2024-01-28T14:57:18-0500 DEBUG Completion plugin: Generating completion cache...
+2024-01-28T14:57:18-0500 DEBUG Installed: nmon-16p-1.el9.x86_64
+2024-01-28T14:57:18-0500 INFO Complete!
+2024-01-28T14:57:18-0500 DDEBUG Cleaning up.
+2024-01-28T14:57:18-0500 DDEBUG /var/cache/dnf/ol9_developer_EPEL-31156a4a0bdc10c2/packages/nmon-16p-1.el9.x86_64.rpm removed
+2024-01-28T14:57:18-0500 DDEBUG Plugins were unloaded.
+2024-01-28T15:02:52-0500 INFO --- logging initialized ---
+2024-01-28T15:02:52-0500 DDEBUG timer: config: 2 ms
+2024-01-28T15:02:52-0500 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade, ulninfo
+2024-01-28T15:02:52-0500 DEBUG DNF version: 4.14.0
+2024-01-28T15:02:52-0500 DDEBUG Command: dnf remove htop -y 
+2024-01-28T15:02:52-0500 DDEBUG Installroot: /
+2024-01-28T15:02:52-0500 DDEBUG Releasever: 9
+2024-01-28T15:02:52-0500 DEBUG cachedir: /var/cache/dnf
+2024-01-28T15:02:52-0500 DDEBUG Base command: remove
+2024-01-28T15:02:52-0500 DDEBUG Extra commands: ['remove', 'htop', '-y']
+2024-01-28T15:02:52-0500 DEBUG User-Agent: constructed: 'libdnf (Oracle Linux Server 9.3; server; Linux.x86_64)'
+2024-01-28T15:02:52-0500 DDEBUG timer: sack setup: 283 ms
+2024-01-28T15:02:52-0500 DEBUG --> Starting dependency resolution
+2024-01-28T15:02:52-0500 DEBUG --> Finding unneeded leftover dependencies
+2024-01-28T15:02:52-0500 DEBUG ---> Package htop.x86_64 3.3.0-1.el9 will be erased
+2024-01-28T15:02:52-0500 DEBUG ---> Package hwloc-libs.x86_64 2.4.1-5.el9 will be erased
+2024-01-28T15:02:52-0500 DEBUG --> Finished dependency resolution
+2024-01-28T15:02:52-0500 DDEBUG timer: depsolve: 61 ms
+2024-01-28T15:02:52-0500 INFO Dependencies resolved.
+2024-01-28T15:02:52-0500 INFO ========================================================================================================================================================
+ Package                           Architecture                  Version                               Repository                                  Size
+========================================================================================================================================================
+Removing:
+ [31mhtop                             (B[m x86_64                        3.3.0-1.el9                           @ol9_developer_EPEL                        476 k
+Removing unused dependencies:
+ [31mhwloc-libs                       (B[m x86_64                        2.4.1-5.el9                           @ol9_baseos_latest                         3.0 M
+
+Transaction Summary
+========================================================================================================================================================
+Remove  2 Packages
+
+2024-01-28T15:02:52-0500 INFO Freed space: 3.5 M
+2024-01-28T15:02:52-0500 INFO Running transaction check
+2024-01-28T15:02:52-0500 INFO Transaction check succeeded.
+2024-01-28T15:02:52-0500 INFO Running transaction test
+2024-01-28T15:02:52-0500 INFO Transaction test succeeded.
+2024-01-28T15:02:52-0500 DDEBUG timer: transaction test: 137 ms
+2024-01-28T15:02:52-0500 INFO Running transaction
+2024-01-28T15:02:52-0500 DDEBUG RPM transaction start.
+2024-01-28T15:02:53-0500 DDEBUG RPM transaction over.
+2024-01-28T15:02:53-0500 DDEBUG timer: verify transaction: 286 ms
+2024-01-28T15:02:53-0500 DDEBUG timer: transaction: 1072 ms
+2024-01-28T15:02:53-0500 DEBUG Completion plugin: Generating completion cache...
+2024-01-28T15:02:54-0500 DEBUG Removed: htop-3.3.0-1.el9.x86_64
+2024-01-28T15:02:54-0500 DEBUG Removed: hwloc-libs-2.4.1-5.el9.x86_64
+2024-01-28T15:02:54-0500 INFO Complete!
+2024-01-28T15:02:54-0500 DDEBUG Cleaning up.
+2024-01-28T15:02:54-0500 DDEBUG Plugins were unloaded.
+2024-01-28T15:03:20-0500 INFO --- logging initialized ---
+2024-01-28T15:03:20-0500 DDEBUG timer: config: 2 ms
+2024-01-28T15:03:20-0500 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade, ulninfo
+2024-01-28T15:03:20-0500 DEBUG DNF version: 4.14.0
+2024-01-28T15:03:20-0500 DDEBUG Command: dnf install htop 
+2024-01-28T15:03:20-0500 DDEBUG Installroot: /
+2024-01-28T15:03:20-0500 DDEBUG Releasever: 9
+2024-01-28T15:03:20-0500 DEBUG cachedir: /var/cache/dnf
+2024-01-28T15:03:20-0500 DDEBUG Base command: install
+2024-01-28T15:03:20-0500 DDEBUG Extra commands: ['install', 'htop']
+2024-01-28T15:03:20-0500 DEBUG User-Agent: constructed: 'libdnf (Oracle Linux Server 9.3; server; Linux.x86_64)'
+2024-01-28T15:03:21-0500 DEBUG repo: using cache for: ol9_developer_EPEL
+2024-01-28T15:03:21-0500 DEBUG ol9_developer_EPEL: using metadata from Thu 25 Jan 2024 10:34:05 PM EST.
+2024-01-28T15:03:21-0500 DEBUG repo: using cache for: ol9_baseos_latest
+2024-01-28T15:03:21-0500 DEBUG ol9_baseos_latest: using metadata from Fri 26 Jan 2024 01:03:59 PM EST.
+2024-01-28T15:03:21-0500 DEBUG repo: using cache for: ol9_appstream
+2024-01-28T15:03:21-0500 DEBUG ol9_appstream: using metadata from Fri 26 Jan 2024 01:09:25 PM EST.
+2024-01-28T15:03:21-0500 DEBUG repo: using cache for: ol9_UEKR7
+2024-01-28T15:03:21-0500 DEBUG ol9_UEKR7: using metadata from Fri 12 Jan 2024 03:35:20 PM EST.
+2024-01-28T15:03:21-0500 INFO Last metadata expiration check: 0:09:41 ago on Sun 28 Jan 2024 02:53:40 PM EST.
+2024-01-28T15:03:21-0500 DDEBUG timer: sack setup: 930 ms
+2024-01-28T15:03:21-0500 DEBUG --> Starting dependency resolution
+2024-01-28T15:03:21-0500 DEBUG ---> Package htop.x86_64 3.3.0-1.el9 will be installed
+2024-01-28T15:03:21-0500 DEBUG ---> Package hwloc-libs.x86_64 2.4.1-5.el9 will be installed
+2024-01-28T15:03:21-0500 DEBUG --> Finished dependency resolution
+2024-01-28T15:03:21-0500 DDEBUG timer: depsolve: 115 ms
+2024-01-28T15:03:21-0500 INFO Dependencies resolved.
+2024-01-28T15:03:21-0500 INFO ========================================================================================================================================================
+ Package                            Architecture                   Version                             Repository                                  Size
+========================================================================================================================================================
+Installing:
+ [1m[32mhtop                              (B[m x86_64                         3.3.0-1.el9                         ol9_developer_EPEL                         207 k
+Installing dependencies:
+ [1m[32mhwloc-libs                        (B[m x86_64                         2.4.1-5.el9                         ol9_baseos_latest                          2.1 M
+
+Transaction Summary
+========================================================================================================================================================
+Install  2 Packages
+
+2024-01-28T15:03:21-0500 INFO Total download size: 2.3 M
+2024-01-28T15:03:21-0500 INFO Installed size: 3.5 M
+2024-01-28T15:03:29-0500 ERROR Operation aborted.
+2024-01-28T15:03:29-0500 DDEBUG Cleaning up.
+2024-01-28T15:03:29-0500 DDEBUG Plugins were unloaded.
+2024-01-28T15:04:24-0500 INFO --- logging initialized ---
+2024-01-28T15:04:24-0500 DDEBUG timer: config: 2 ms
+2024-01-28T15:04:24-0500 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade, ulninfo
+2024-01-28T15:04:24-0500 DEBUG DNF version: 4.14.0
+2024-01-28T15:04:24-0500 DDEBUG Command: dnf install htop -y 
+2024-01-28T15:04:24-0500 DDEBUG Installroot: /
+2024-01-28T15:04:24-0500 DDEBUG Releasever: 9
+2024-01-28T15:04:24-0500 DEBUG cachedir: /var/cache/dnf
+2024-01-28T15:04:24-0500 DDEBUG Base command: install
+2024-01-28T15:04:24-0500 DDEBUG Extra commands: ['install', 'htop', '-y']
+2024-01-28T15:04:24-0500 DEBUG User-Agent: constructed: 'libdnf (Oracle Linux Server 9.3; server; Linux.x86_64)'
+2024-01-28T15:04:25-0500 DEBUG repo: using cache for: ol9_developer_EPEL
+2024-01-28T15:04:25-0500 DEBUG ol9_developer_EPEL: using metadata from Thu 25 Jan 2024 10:34:05 PM EST.
+2024-01-28T15:04:25-0500 DEBUG repo: using cache for: ol9_baseos_latest
+2024-01-28T15:04:25-0500 DEBUG ol9_baseos_latest: using metadata from Fri 26 Jan 2024 01:03:59 PM EST.
+2024-01-28T15:04:25-0500 DEBUG repo: using cache for: ol9_appstream
+2024-01-28T15:04:25-0500 DEBUG ol9_appstream: using metadata from Fri 26 Jan 2024 01:09:25 PM EST.
+2024-01-28T15:04:25-0500 DEBUG repo: using cache for: ol9_UEKR7
+2024-01-28T15:04:25-0500 DEBUG ol9_UEKR7: using metadata from Fri 12 Jan 2024 03:35:20 PM EST.
+2024-01-28T15:04:25-0500 INFO Last metadata expiration check: 0:10:45 ago on Sun 28 Jan 2024 02:53:40 PM EST.
+2024-01-28T15:04:25-0500 DDEBUG timer: sack setup: 922 ms
+2024-01-28T15:04:25-0500 DEBUG --> Starting dependency resolution
+2024-01-28T15:04:25-0500 DEBUG ---> Package htop.x86_64 3.3.0-1.el9 will be installed
+2024-01-28T15:04:25-0500 DEBUG ---> Package hwloc-libs.x86_64 2.4.1-5.el9 will be installed
+2024-01-28T15:04:25-0500 DEBUG --> Finished dependency resolution
+2024-01-28T15:04:25-0500 DDEBUG timer: depsolve: 117 ms
+2024-01-28T15:04:25-0500 INFO Dependencies resolved.
+2024-01-28T15:04:25-0500 INFO ========================================================================================================================================================
+ Package                            Architecture                   Version                             Repository                                  Size
+========================================================================================================================================================
+Installing:
+ [1m[32mhtop                              (B[m x86_64                         3.3.0-1.el9                         ol9_developer_EPEL                         207 k
+Installing dependencies:
+ [1m[32mhwloc-libs                        (B[m x86_64                         2.4.1-5.el9                         ol9_baseos_latest                          2.1 M
+
+Transaction Summary
+========================================================================================================================================================
+Install  2 Packages
+
+2024-01-28T15:04:25-0500 INFO Total download size: 2.3 M
+2024-01-28T15:04:25-0500 INFO Installed size: 3.5 M
+2024-01-28T15:04:25-0500 INFO Downloading Packages:
+2024-01-28T15:04:26-0500 INFO --------------------------------------------------------------------------------------------------------------------------------------------------------
+2024-01-28T15:04:26-0500 INFO Total                                                                                                                   6.9 MB/s | 2.3 MB     00:00     
+2024-01-28T15:04:26-0500 DEBUG Using rpmkeys executable at /bin/rpmkeys to verify signatures
+2024-01-28T15:04:26-0500 INFO Running transaction check
+2024-01-28T15:04:26-0500 INFO Transaction check succeeded.
+2024-01-28T15:04:26-0500 INFO Running transaction test
+2024-01-28T15:04:26-0500 INFO Transaction test succeeded.
+2024-01-28T15:04:26-0500 DDEBUG timer: transaction test: 368 ms
+2024-01-28T15:04:26-0500 INFO Running transaction
+2024-01-28T15:04:26-0500 DDEBUG RPM transaction start.
+2024-01-28T15:04:27-0500 DDEBUG RPM transaction over.
+2024-01-28T15:04:28-0500 DDEBUG timer: verify transaction: 273 ms
+2024-01-28T15:04:28-0500 DDEBUG timer: transaction: 1430 ms
+2024-01-28T15:04:28-0500 DEBUG Completion plugin: Generating completion cache...
+2024-01-28T15:04:28-0500 DEBUG Installed: htop-3.3.0-1.el9.x86_64
+2024-01-28T15:04:28-0500 DEBUG Installed: hwloc-libs-2.4.1-5.el9.x86_64
+2024-01-28T15:04:28-0500 INFO Complete!
+2024-01-28T15:04:28-0500 DDEBUG Cleaning up.
+2024-01-28T15:04:28-0500 DDEBUG /var/cache/dnf/ol9_baseos_latest-b84601b3ea4c211b/packages/hwloc-libs-2.4.1-5.el9.x86_64.rpm removed
+2024-01-28T15:04:28-0500 DDEBUG /var/cache/dnf/ol9_developer_EPEL-31156a4a0bdc10c2/packages/htop-3.3.0-1.el9.x86_64.rpm removed
+2024-01-28T15:04:28-0500 DDEBUG Plugins were unloaded.
+2024-01-28T15:54:53-0500 INFO --- logging initialized ---
+2024-01-28T15:54:53-0500 DDEBUG timer: config: 2 ms
+2024-01-28T15:54:53-0500 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade, ulninfo
+2024-01-28T15:54:53-0500 DEBUG DNF version: 4.14.0
+2024-01-28T15:54:53-0500 DDEBUG Command: dnf makecache --timer 
+2024-01-28T15:54:53-0500 DDEBUG Installroot: /
+2024-01-28T15:54:53-0500 DDEBUG Releasever: 9
+2024-01-28T15:54:53-0500 DEBUG cachedir: /var/cache/dnf
+2024-01-28T15:54:53-0500 DDEBUG Base command: makecache
+2024-01-28T15:54:53-0500 DDEBUG Extra commands: ['makecache', '--timer']
+2024-01-28T15:54:53-0500 DEBUG Making cache files for all metadata files.
+2024-01-28T15:54:53-0500 INFO Metadata cache refreshed recently.
+2024-01-28T15:54:53-0500 DDEBUG Cleaning up.
+2024-01-28T15:54:53-0500 DDEBUG Plugins were unloaded.
+2024-01-28T17:10:53-0500 INFO --- logging initialized ---
+2024-01-28T17:10:53-0500 DDEBUG timer: config: 2 ms
+2024-01-28T17:10:53-0500 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade, ulninfo
+2024-01-28T17:10:53-0500 DEBUG DNF version: 4.14.0
+2024-01-28T17:10:53-0500 DDEBUG Command: dnf makecache --timer 
+2024-01-28T17:10:53-0500 DDEBUG Installroot: /
+2024-01-28T17:10:53-0500 DDEBUG Releasever: 9
+2024-01-28T17:10:53-0500 DEBUG cachedir: /var/cache/dnf
+2024-01-28T17:10:53-0500 DDEBUG Base command: makecache
+2024-01-28T17:10:53-0500 DDEBUG Extra commands: ['makecache', '--timer']
+2024-01-28T17:10:53-0500 DEBUG Making cache files for all metadata files.
+2024-01-28T17:10:53-0500 INFO Metadata cache refreshed recently.
+2024-01-28T17:10:53-0500 DDEBUG Cleaning up.
+2024-01-28T17:10:53-0500 DDEBUG Plugins were unloaded.
+2024-01-28T18:16:53-0500 INFO --- logging initialized ---
+2024-01-28T18:16:53-0500 DDEBUG timer: config: 2 ms
+2024-01-28T18:16:53-0500 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade, ulninfo
+2024-01-28T18:16:53-0500 DEBUG DNF version: 4.14.0
+2024-01-28T18:16:53-0500 DDEBUG Command: dnf makecache --timer 
+2024-01-28T18:16:53-0500 DDEBUG Installroot: /
+2024-01-28T18:16:53-0500 DDEBUG Releasever: 9
+2024-01-28T18:16:53-0500 DEBUG cachedir: /var/cache/dnf
+2024-01-28T18:16:53-0500 DDEBUG Base command: makecache
+2024-01-28T18:16:53-0500 DDEBUG Extra commands: ['makecache', '--timer']
+2024-01-28T18:16:53-0500 DEBUG Making cache files for all metadata files.
+2024-01-28T18:16:53-0500 DEBUG ol9_developer_EPEL: has expired and will be refreshed.
+2024-01-28T18:16:53-0500 DEBUG ol9_baseos_latest: has expired and will be refreshed.
+2024-01-28T18:16:53-0500 DEBUG ol9_appstream: has expired and will be refreshed.
+2024-01-28T18:16:53-0500 DEBUG ol9_UEKR7: has expired and will be refreshed.
+2024-01-28T18:16:53-0500 DEBUG reviving: 'ol9_developer_EPEL' can be revived - repomd matches.
+2024-01-28T18:16:53-0500 DEBUG ol9_developer_EPEL: using metadata from Thu 25 Jan 2024 10:34:05 PM EST.
+2024-01-28T18:16:53-0500 DEBUG reviving: 'ol9_baseos_latest' can be revived - repomd matches.
+2024-01-28T18:16:54-0500 DEBUG ol9_baseos_latest: using metadata from Fri 26 Jan 2024 01:03:59 PM EST.
+2024-01-28T18:16:54-0500 DEBUG reviving: 'ol9_appstream' can be revived - repomd matches.
+2024-01-28T18:16:54-0500 DEBUG ol9_appstream: using metadata from Fri 26 Jan 2024 01:09:25 PM EST.
+2024-01-28T18:16:54-0500 DEBUG reviving: 'ol9_UEKR7' can be revived - repomd matches.
+2024-01-28T18:16:54-0500 DEBUG ol9_UEKR7: using metadata from Fri 12 Jan 2024 03:35:20 PM EST.
+2024-01-28T18:16:54-0500 DEBUG User-Agent: constructed: 'libdnf (Oracle Linux Server 9.3; server; Linux.x86_64)'
+2024-01-28T18:16:54-0500 DDEBUG timer: sack setup: 1286 ms
+2024-01-28T18:16:54-0500 INFO Metadata cache created.
+2024-01-28T18:16:54-0500 DDEBUG Cleaning up.
+2024-01-28T18:16:54-0500 DDEBUG Plugins were unloaded.
+2024-01-28T19:42:53-0500 INFO --- logging initialized ---
+2024-01-28T19:42:53-0500 DDEBUG timer: config: 2 ms
+2024-01-28T19:42:53-0500 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade, ulninfo
+2024-01-28T19:42:53-0500 DEBUG DNF version: 4.14.0
+2024-01-28T19:42:53-0500 DDEBUG Command: dnf makecache --timer 
+2024-01-28T19:42:53-0500 DDEBUG Installroot: /
+2024-01-28T19:42:53-0500 DDEBUG Releasever: 9
+2024-01-28T19:42:53-0500 DEBUG cachedir: /var/cache/dnf
+2024-01-28T19:42:53-0500 DDEBUG Base command: makecache
+2024-01-28T19:42:53-0500 DDEBUG Extra commands: ['makecache', '--timer']
+2024-01-28T19:42:53-0500 DEBUG Making cache files for all metadata files.
+2024-01-28T19:42:53-0500 INFO Metadata cache refreshed recently.
+2024-01-28T19:42:53-0500 DDEBUG Cleaning up.
+2024-01-28T19:42:53-0500 DDEBUG Plugins were unloaded.
+2024-01-28T21:13:53-0500 INFO --- logging initialized ---
+2024-01-28T21:13:53-0500 DDEBUG timer: config: 2 ms
+2024-01-28T21:13:53-0500 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade, ulninfo
+2024-01-28T21:13:53-0500 DEBUG DNF version: 4.14.0
+2024-01-28T21:13:53-0500 DDEBUG Command: dnf makecache --timer 
+2024-01-28T21:13:53-0500 DDEBUG Installroot: /
+2024-01-28T21:13:53-0500 DDEBUG Releasever: 9
+2024-01-28T21:13:53-0500 DEBUG cachedir: /var/cache/dnf
+2024-01-28T21:13:53-0500 DDEBUG Base command: makecache
+2024-01-28T21:13:53-0500 DDEBUG Extra commands: ['makecache', '--timer']
+2024-01-28T21:13:53-0500 DEBUG Making cache files for all metadata files.
+2024-01-28T21:13:53-0500 INFO Metadata cache refreshed recently.
+2024-01-28T21:13:53-0500 DDEBUG Cleaning up.
+2024-01-28T21:13:53-0500 DDEBUG Plugins were unloaded.
