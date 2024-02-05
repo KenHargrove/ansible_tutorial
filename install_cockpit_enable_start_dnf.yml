@@ -1,0 +1,20 @@
+---
+
+- hosts: all
+  become: true
+  tasks:
+
+  - name: update repository index
+    dnf:
+      update_cache: yes
+
+  - name: install cockpit package
+    dnf:
+      name: cockpit
+      state: latest
+
+  - name: enable cockpit
+    service:
+      name: cockpit
+      state: started
+      enabled: yes
