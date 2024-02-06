@@ -1,6 +1,6 @@
 # ansible_tutorial
 
-This is my Ansible git Repo.
+This is my Ansible/shell scripting git Repo.
 
 Most of the content here can be created while following Learn Linux TV courses.
 
